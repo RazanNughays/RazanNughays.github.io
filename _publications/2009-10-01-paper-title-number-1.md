@@ -2,9 +2,9 @@
 ---
 title: "Visualization of surface charge carrier diffusion lengths in different perovskite crystal orientations using 4D electron imaging"
 collection: publications
-category: manuscripts
 date: 2023-03-20
 venue: "Advanced Optical Materials"
+permalink: /publication/4d-electron-imaging-perovskites/
 paperurl: "https://doi.org/10.1002/adom.202300190"
 citation: "R. O. Nughays et al., “Visualization of Surface Charge Carrier Diffusion Lengths in Different Perovskite Crystal Orientations Using 4D Electron Imaging,” Advanced Optical Materials, 2023."
 
