@@ -11,11 +11,11 @@ main:
   - title: "Biography"
     url: /Biography/    
     
-  - title: "Publications"
-    url: /publications/
-    
   - title: "Research Interest"
     url: /Research Interest/
+
+  - title: "Publications"
+    url: /publications/
     
   # - title: "CV"
   #   url: /cv-json/
