@@ -1,6 +1,6 @@
 ---
-layout: single
-title: "Biography"
-permalink: /biography/
+layout:single
+title:"Biography"
+permalink:/biography/
 author_profile: true
 ---
