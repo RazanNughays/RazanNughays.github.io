@@ -9,10 +9,10 @@
 
 main:
   - title: "Biography"
-    url: /Biography/    
+    url: /biography/    
     
   - title: "Research Interest"
-    url: /Research Interest/
+    url: /research Interest/
 
   - title: "Publications"
     url: /publications/
@@ -24,4 +24,4 @@ main:
     url: /cv/
     
   - title: "Contact"
-    url: /Contact/
+    url: /contact/
