@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Biography"
-permalink: /biographu/
+permalink: /biography/
 author_profile: true
 ---
 
