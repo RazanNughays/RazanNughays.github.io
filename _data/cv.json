@@ -1,152 +1,141 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Razan O. Nughays",
+    "email": "razan.nughays@gmail.com",
+    "phone": "+966 56 494 5364",
+    "website": "https://razannughays.github.io",
+    "summary": "Postdoctoral researcher specializing in ultrafast electron and optical microscopy to investigate charge carrier dynamics in complex materials for renewable energy and optoelectronic technologies.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Boston",
       "countryCode": "US",
-      "region": ""
+      "region": "Massachusetts"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=DcS9X2UAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "RazanNughays",
+        "url": "https://github.com/RazanNughays"
       }
     ]
   },
-  "work": [],
+
+  "work": [
+    {
+      "institution": "Massachusetts Institute of Technology (MIT)",
+      "position": "Postdoctoral Associate",
+      "startDate": "2026-09",
+      "endDate": "",
+      "summary": "Leveraging ultrafast microscopy and nonlinear optical techniques to study light–matter interactions in hybrid materials."
+    },
+    {
+      "institution": "King Abdullah University of Science and Technology (KAUST)",
+      "position": "Ph.D. Researcher",
+      "startDate": "2020-06",
+      "endDate": "2025-09",
+      "summary": "Utilized 4D-Ultrafast Scanning Electron Microscopy (4D-USEM) to visualize nanoscale charge carrier dynamics in perovskites and optoelectronic materials."
+    }
+  ],
+
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "King Abdullah University of Science and Technology (KAUST)",
+      "area": "Ph.D. in Materials Science and Engineering",
+      "startDate": "2020",
+      "endDate": "2025"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "King Abdullah University of Science and Technology (KAUST)",
+      "area": "M.Sc. in Materials Science and Engineering",
+      "startDate": "2018",
+      "endDate": "2020"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "King Abdulaziz University (KAU)",
+      "area": "B.Sc. in General Physics",
+      "startDate": "2013",
+      "endDate": "2017"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "MATLAB", "LaTeX"]
+    },
+    {
+      "name": "Data Analysis",
+      "keywords": ["Origin", "MS Excel"]
+    },
+    {
+      "name": "Experimental Techniques",
+      "keywords": [
+        "Ultrafast Scanning Electron Microscopy (4D-USEM)",
+        "Femtosecond laser systems",
+        "Optical alignment",
+        "Time-resolved spectroscopy",
+        "Nonlinear optics (TR-SHG)"
+      ]
+    }
+  ],
+
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Visualization of Surface Charge Carrier Diffusion Lengths in Different Perovskite Crystal Orientations Using 4D Electron Imaging",
+      "publisher": "Advanced Optical Materials",
+      "releaseDate": "2023-03-20",
+      "website": "https://doi.org/10.1002/adom.202300190",
+      "summary": "First-author publication demonstrating real-space visualization of carrier diffusion lengths in single-crystal perovskites using 4D-USEM."
     }
   ],
+
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
+      "name": "Leveraging 4D-USEM in Probing Charge Carriers at the Surface of Single Crystal Perovskites",
+      "event": "MRS Fall Meeting 2024",
+      "date": "2024-12-03",
+      "location": "Boston, MA, USA",
+      "description": "Oral presentation"
+    },
+    {
+      "name": "Real-space Mapping of Carrier Dynamics in CdTe Crystals: From 4D Electron Imaging to X-ray Detectors",
+      "event": "IMC20",
+      "date": "2023-09",
+      "location": "Busan, South Korea",
+      "description": "Poster presentation"
+    },
+    {
+      "name": "Visualization of Charge Carrier Diffusion Lengths in Perovskite Single Crystals",
+      "event": "SPIE OPTO 2023",
+      "date": "2023-01",
       "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "description": "Conference proceeding presentation"
     }
   ],
-  "teaching": [
+
+  "awards": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "title": "Ibn Khaldun Postdoctoral Fellowship",
+      "date": "2025"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
+      "title": "KAUST Dean’s Award",
+      "date": "2023-2024"
+    },
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "IMC20 Best Poster Presentation Award",
+      "date": "2023"
     }
   ]
 }
