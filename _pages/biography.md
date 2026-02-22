@@ -5,19 +5,9 @@ permalink: /biography/
 author_profile: true
 ---
 
-My research is driven by a simple question:
-How do the interface and structure at the nanoscale control the way energy moves?
+Razan Omar Nughays is a Postdoctoral Associate at the Massachusetts Institute of Technology (MIT), working with Professor Tisdale. Her work focuses on developing and applying ultrafast experimental techniques to understand energy transport in complex materials.
 
-I am currently a Postdoctoral Associate at the Massachusetts Institute of Technology (MIT), working with Professor Tisdale. 
-My research focuses on ultrafast light–matter interactions in hybrid and low-dimensional materials, with particular emphasis on surfaces and interfaces where symmetry and structure govern electronic behavior. 
+She earned her Ph.D. in Materials Science and Engineering from King Abdullah University of Science and Technology (KAUST) in Saudi Arabia, where she utilized  a four-dimensional Ultrafast Scanning Electron Microscopy (4D-USEM) to visualize charge carrier transport in real space and real time. 
+Her doctoral research emphasized how crystal orientation, surface composition and nanoscale heterogeneity influence electronic dynamics in semiconductors relevant to photovoltaics and optoelectronics.
 
-At MIT, I design and implement time-resolved nonlinear optical techniques — including second harmonic generation (TR-SHG) — to probe how interfacial symmetry breaking, electronic coupling, and structural heterogeneity shape energy flow on femtosecond timescales.
-
-This work builds naturally on my Ph.D. at King Abdullah University of Science and Technology (KAUST), where I investigated electron–matter interactions using a four-dimensional Ultrafast Scanning Electron Microscopy (4D-USEM) platform, one of only a few such
-instruments operating worldwide. There, I developed and modified advanced instrumentation to directly visualize charge carrier transport in real space and real time, revealing how nanoscale structure influences electronic dynamics.
-
-While my doctoral research centered on electron-driven excitation and detection, my current work extends this foundation into the optical domain — together forming a unified approach to understanding how structure and symmetry govern ultrafast energy dynamics in complex materials.
-
-My broader goal is to develop experimental platforms that bridge electron–matter and light–matter interactions, connecting nanoscale structure to dynamic function and enabling the rational design of next-generation renewable energy and optoelectronic technologies.
-
-
+At MIT, she investigates interfacial dynamics using time-resolved nonlinear optical methods. Her research integrates advanced instrumentation development with fundamental studies of ultrafast processes, with the broader goal of correlating structure to function in energy-relevant materials.
