@@ -21,7 +21,7 @@ main:
   #   url: /cv-json/
 
   - title: "Curriculum Vitae"
-    url: /files/CV.pdf/
+    url: /CV/
     
   - title: "Contact"
     url: /contact/
