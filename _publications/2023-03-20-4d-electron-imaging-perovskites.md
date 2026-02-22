@@ -1,5 +1,5 @@
 ---
-title: "Visualization of surface charge carrier diffusion lengths in different perovskite crystal orientations using 4D electron imaging"
+title: "Visualization of Surface Charge Carrier Diffusion Lengths in Different Perovskite Crystal Orientations Using 4D Electron Imaging"
 collection: publications
 permalink: /publication/4d-electron-imaging-perovskites/
 date: 2023-03-20
