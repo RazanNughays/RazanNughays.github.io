@@ -20,8 +20,8 @@ main:
   # - title: "CV"
   #   url: /cv-json/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Curriculum Vitae"
+    url: /CV/
     
   - title: "Contact"
     url: /contact/
