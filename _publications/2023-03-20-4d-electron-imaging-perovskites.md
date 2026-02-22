@@ -2,8 +2,6 @@
 title: "Visualization of Surface Charge Carrier Diffusion Lengths in Different Perovskite Crystal Orientations Using 4D Electron Imaging"
 collection: publications
 category: manuscripts
-permalink: /publication/4d-electron-imaging-perovskites/
-excerpt: "Real-space visualization of surface charge-carrier diffusion lengths across different perovskite crystal orientations using 4D ultrafast electron imaging."
 date: 2023-03-20
 venue: "Advanced Optical Materials"
 paperurl: "https://doi.org/10.1002/adom.202300190"
