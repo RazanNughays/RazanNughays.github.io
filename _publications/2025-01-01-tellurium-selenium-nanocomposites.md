@@ -1,7 +1,7 @@
 ---
 title: "Visualizing and Modulating the Surface Carrier Dynamics of Tellurium–Selenium Nanocomposites"
 collection: publications
-category: first-author
+category: manuscripts
 permalink: /publication/tellurium-selenium-nanocomposites/
 excerpt: "Ultrafast real-space visualization of surface carrier dynamics in Te–Se nanocomposites."
 date: 2025-01-01
