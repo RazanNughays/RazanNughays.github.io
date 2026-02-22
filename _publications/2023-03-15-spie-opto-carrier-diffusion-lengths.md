@@ -2,7 +2,6 @@
 title: "Visualization of charge carrier diffusion lengths in perovskites single crystal"
 collection: publications
 category: conferences
-permalink: /publication/spie-opto-2023-perovskite-diffusion-lengths/
 excerpt: "SPIE OPTO 2023 proceedings paper on visualizing charge-carrier diffusion lengths in single-crystal perovskites."
 date: 2023-03-15
 venue: "SPIE OPTO 2023 — Ultrafast Phenomena and Nanophotonics XXVII (Proceedings Vol. PC12419)"
