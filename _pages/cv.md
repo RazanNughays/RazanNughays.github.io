@@ -30,7 +30,7 @@ redirect_from:
 
 ## Conference Participation (selected)
 - **MRS Fall Meeting**, Boston, USA — Oral presentation (Dec 2024). 
-- **IMC20**, Busan, South Korea — Poster presentation (Sep 2023). : 
+- **IMC20**, Busan, South Korea — Poster presentation (Sep 2023). 
 - **SPIE Conference**, San Francisco, USA — Poster presentation (Jan 2023). 
 
 ## Awards
