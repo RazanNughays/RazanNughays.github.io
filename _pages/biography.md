@@ -11,7 +11,7 @@ She earned her Ph.D. in Materials Science and Engineering from King Abdullah Uni
 Her doctoral research emphasized how crystal orientation, surface composition and nanoscale heterogeneity influence electronic dynamics in semiconductors relevant to photovoltaics and optoelectronics.
 
 <p align="center">
-  <img src="/images/PhD.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 70%; height: auto;">
+  <img src="/images/PhD.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 50%; height: auto;">
 </p>
 
 At MIT, she investigates interfacial dynamics using time-resolved nonlinear optical methods. Her research integrates advanced instrumentation development with fundamental studies of ultrafast processes, with the broader goal of correlating structure to function in energy-relevant materials.
