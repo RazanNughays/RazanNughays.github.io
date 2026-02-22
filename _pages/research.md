@@ -5,6 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
+<p align="center">
+  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 100%; height: auto;">
+</p>
+
+
 My research is driven by a simple question:  
 
 
