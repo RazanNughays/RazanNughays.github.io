@@ -9,7 +9,7 @@
 
 main:
   - title: "Biography"
-    url: /biography/    
+    url: /    
     
   - title: "Research Interest"
     url: /research/
