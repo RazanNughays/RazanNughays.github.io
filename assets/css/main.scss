@@ -2,8 +2,10 @@
 ---
 
 /*
- * Main SCSS File
- * Academic Pages / Minimal Mistakes
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -40,85 +42,10 @@
     "vendor/font-awesome/brands"
 ;
 
-
-/* =====================================================
-   CUSTOM LIGHT YELLOW THEME OVERRIDES
-   ===================================================== */
-
-
-/* ---- FORCE LIGHT BACKGROUND EVERYWHERE ---- */
-
-html,
-body,
-.site,
-.initial-content,
-.layout--single,
-.layout--archive,
-.layout--home,
-.page,
-.page__inner-wrap,
-.page__content,
-.archive,
-.wrapper,
-main {
-  background-color: #fffdf3 !important;
-}
-
-
-/* Remove grey card container look */
-.page__inner-wrap {
-  box-shadow: none !important;
-  border: none !important;
-}
-
-
-/* ---- HEADER ---- */
-
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
-  background-color: #fff7d6 !important;
-  border-bottom: 1px solid #e6d38a !important;
-}
-
-
-/* Navigation links */
-.greedy-nav a {
-  color: #000 !important;
-}
-
-
-/* ---- FOOTER ---- */
-
-.page__footer {
-  background-color: #fff7d6 !important;
-  color: #222 !important;
-  border-top: 1px solid #e6d38a !important;
-}
-
-
-/* ---- PUBLICATION TITLES BLACK ---- */
-
-.archive__item-title a {
-  color: #000000 !important;
-  font-weight: 600;
-}
-
-.archive__item-title a:hover {
-  color: #000000 !important;
-  text-decoration: underline;
-}
-
-
-/* ---- REMOVE BLUE UNDERLINES / ACCENT COLOR ---- */
-
-a {
-  color: #000 !important;
-}
-
-
-/* ---- AVATAR ROUNDED SQUARE ---- */
+/* =========================
+   Custom Style Overrides
+   ========================= */
 
 .author__avatar img {
-  border-radius: 8px !important;
+  border-radius: 8px !important; /* slightly rounded square */
 }
