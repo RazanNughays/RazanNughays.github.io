@@ -5,6 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 
+### Focus Areas
+- **Nonlinear Optical Microscopy and Spectroscopy**
+- **Ultrafast Charge Carrier Dynamics**
+- **Light–matter interactions**
+- **Interfacial Energy Transport**  
+
 <p align="center">
   <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 80%; height: auto;">
 </p>
