@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <p align="center">
-  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 100%; height: auto;">
+  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 80%; height: auto;">
 </p>
 
 
@@ -30,6 +30,10 @@ A central theme of my work is understanding how structural heterogeneity, symmet
 I am particularly interested in building experimental platforms that combine spatial precision with femtosecond temporal resolution to directly correlate nanoscale structure with dynamic function.
 
 **Previous work**
+
+<p align="center">
+  <img src="/images/4D-USEM.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 50%; height: auto;">
+</p>
 
 This direction builds on my doctoral work, where I employed four-dimensional ultrafast scanning electron microscopy (4D-USEM) to directly visualize charge-carrier dynamics in real space and real time. By leveraging electron–matter interactions within a pump–probe framework, I resolved surface-specific diffusion, trapping, and recombination pathways with nanometer spatial resolution. That work established a structure-sensitive, surface-focused perspective that now informs my nonlinear optical investigations of interfacial energy flow.
 
