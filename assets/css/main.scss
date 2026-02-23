@@ -3,43 +3,40 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
 
 /* =========================
@@ -52,52 +49,88 @@
 }
 
 /* =========================
-   Top nav layout:
-   - Name stays LEFT
-   - Menu items centered
-   - Remove hamburger / X / dropdown
+   Masthead layout
+   - Site title stays LEFT
+   - Nav links centered (desktop)
+   - Keep links visible (no greedy collapsing)
    ========================= */
 
-/* Make masthead a left-title + centered-nav flex row */
-.masthead__inner-wrap {
+/* Make sure masthead is a flex row */
+.masthead__inner-wrap,
+.masthead__menu {
   display: flex !important;
   align-items: center !important;
-  justify-content: space-between !important;
-}
-
-/* Ensure the title block stays left and doesn't stretch */
-.masthead__inner-wrap .masthead__menu {
   width: 100% !important;
 }
 
-/* Greedy nav: keep items visible and centered */
+/* Greedy nav container */
 .greedy-nav {
   display: flex !important;
   align-items: center !important;
   width: 100% !important;
 }
 
-/* Site title left */
+/* Keep site title on the far left */
 .greedy-nav .site-title {
   flex: 0 0 auto !important;
   margin-right: 1.5rem !important;
 }
 
-/* Visible links centered */
+/* Center the visible links */
 .greedy-nav .visible-links {
   display: flex !important;
-  justify-content: center !important;
   flex: 1 1 auto !important;
+  justify-content: center !important;
+  align-items: center !important;
   gap: 2rem !important;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Kill hamburger toggle */
+/* IMPORTANT:
+   Stop greedy-nav from hiding items into hidden-links */
+.greedy-nav .visible-links > li {
+  display: inline-block !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+/* If some items already got moved into hidden-links, show them inline too */
+.greedy-nav .hidden-links {
+  display: flex !important;
+  position: static !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+/* Make hidden links look like normal top links */
+.greedy-nav .hidden-links > li {
+  display: inline-block !important;
+  margin: 0 !important;
+}
+.greedy-nav .hidden-links a {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+/* Hide the hamburger + close icon (desktop) */
 .greedy-nav__toggle {
   display: none !important;
 }
 
-/* Kill dropdown links */
-.greedy-nav .hidden-links {
+/* Also hide the close icon if your theme uses another class */
+.navicon,
+.close-button,
+.greedy-nav .close {
   display: none !important;
+}
+
+/* Safety: prevent dropdown styling if theme tries to apply it */
+.greedy-nav .hidden-links {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
 }
