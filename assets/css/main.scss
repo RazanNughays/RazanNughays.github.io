@@ -1,10 +1,6 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- */
-
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -39,51 +35,103 @@
     "vendor/font-awesome/brands"
 ;
 
-/* =========================
-   Custom Style Overrides
-   ========================= */
+/* =====================================================
+   Custom Style Overrides – Razan O. Nughays Website
+   ===================================================== */
 
-/* Slightly rounded avatar */
-.author__avatar img {
-  border-radius: 8px !important;
-}
+/* -------------------------
+   Background (soft yellow)
+   ------------------------- */
 
-/* Soft warm background */
 body {
-  background-color: #fffdf4;
+  background-color: #fffdf3 !important;   /* very soft academic cream */
 }
 
-/* Elegant yellow accent for links */
+
+/* -------------------------
+   Header / Navigation
+   ------------------------- */
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background-color: #fff7d6 !important;   /* light yellow header */
+  border-bottom: 1px solid #f1e2a6;
+}
+
+/* Navigation text */
+.greedy-nav a {
+  color: #2b2b2b !important;
+  font-weight: 500;
+}
+
+/* Hover & active state */
+.greedy-nav a:hover,
+.greedy-nav .active a {
+  color: #8a6d00 !important;
+}
+
+
+/* -------------------------
+   Footer (remove blue)
+   ------------------------- */
+
+.page__footer {
+  background-color: #fff7d6 !important;
+  color: #333 !important;
+  border-top: 1px solid #f1e2a6;
+}
+
+.page__footer a {
+  color: #8a6d00 !important;
+}
+
+
+/* -------------------------
+   Links
+   ------------------------- */
+
 a {
-  color: #b8860b;
+  color: #8a6d00;
 }
 
 a:hover {
-  color: #e6a800;
+  color: #c28a00;
 }
 
-/* Subtle heading highlight */
-h2::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #f4d35e;
-  margin-top: 6px;
-}
 
-/* Buttons */
+/* -------------------------
+   Buttons
+   ------------------------- */
+
 .btn {
-  border-radius: 10px;
   background-color: #f4d35e;
   color: #333;
+  border-radius: 10px;
 }
 
 .btn:hover {
   background-color: #f1c40f;
 }
 
-/* Better readability */
+
+/* -------------------------
+   Avatar (square not circle)
+   ------------------------- */
+
+.author__avatar img {
+  border-radius: 8px !important;   /* slightly rounded square */
+}
+
+
+/* -------------------------
+   Improve readability
+   ------------------------- */
+
 .page__content p {
-  line-height: 1.7;
+  line-height: 1.75;
+}
+
+h1, h2, h3 {
+  color: #2b2b2b;
 }
