@@ -3,6 +3,9 @@
 
 /*
  * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -39,41 +42,62 @@
     "vendor/font-awesome/brands"
 ;
 
-
 /* =========================
-   Avatar styling
+   Custom Style Overrides
    ========================= */
 
+/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
-
 /* =========================
-   NAVIGATION FIX (Clean Version)
+   Top nav layout:
+   - Name stays LEFT
+   - Menu items centered
+   - Remove hamburger / X / dropdown
    ========================= */
 
-/* Keep masthead layout normal */
+/* Make masthead a left-title + centered-nav flex row */
 .masthead__inner-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
-/* Keep your name fully left */
-.site-title {
-  flex: 0 0 auto;
+/* Ensure the title block stays left and doesn't stretch */
+.masthead__inner-wrap .masthead__menu {
+  width: 100% !important;
 }
 
-/* Center only the visible nav links */
+/* Greedy nav: keep items visible and centered */
+.greedy-nav {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+/* Site title left */
+.greedy-nav .site-title {
+  flex: 0 0 auto !important;
+  margin-right: 1.5rem !important;
+}
+
+/* Visible links centered */
 .greedy-nav .visible-links {
   display: flex !important;
   justify-content: center !important;
-  flex: 1;
-  gap: 2rem;
+  flex: 1 1 auto !important;
+  gap: 2rem !important;
+  margin: 0 !important;
 }
 
-/* Keep toggle button on right */
+/* Kill hamburger toggle */
+.greedy-nav__toggle {
+  display: none !important;
+}
+
+/* Kill dropdown links */
 .greedy-nav .hidden-links {
-  right: 0;
+  display: none !important;
 }
