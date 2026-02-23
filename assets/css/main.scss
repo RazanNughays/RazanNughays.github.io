@@ -3,40 +3,43 @@
 
 /*
  * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
+    "vendor/breakpoint/breakpoint",
 
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-  "include/mixins",
-  "vendor/susy/susy",
+    "include/mixins",
+    "vendor/susy/susy",
 
-  "layout/reset",
-  "layout/base",
+    "layout/reset",
+    "layout/base",
 
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-  "layout/forms",
+    "layout/forms",
 
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
 ;
 
 /* =========================
@@ -49,80 +52,57 @@
 }
 
 /* =========================
-   Masthead fixes (DESKTOP)
-   - Title stays LEFT and aligns with content padding
-   - Nav links centered
-   - Controls (gear/search) right
-   - No hamburger on desktop
+   NAV: keep title left, center menu items (DESKTOP only)
+   IMPORTANT: we are NOT hiding toggles or hidden-links.
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Make masthead container match page content alignment */
+  /* Make masthead align better with page content */
   .masthead__inner-wrap {
-    max-width: 1200px;        /* adjust if you want wider (e.g., 1280px) */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;       /* this is what aligns the title better */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  /* Greedy nav layout */
-  .greedy-nav {
-    display: flex !important;
-    align-items: center !important;
-    width: 100% !important;
+  /* Ensure the nav container is flex */
+  .greedy-nav,
+  nav.greedy-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 
-  /* Title: left */
+  /* Keep your name on the left */
   .greedy-nav .site-title {
-    flex: 0 0 auto !important;
-    margin: 0 !important;
-    padding-right: 1.25rem !important;
+    flex: 0 0 auto;
+    margin-right: 1.25rem;
   }
 
-  /* Center ONLY the visible nav links */
+  /* Center the visible menu items */
   .greedy-nav .visible-links {
-    flex: 1 1 auto !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    /* IMPORTANT: reduce spacing so "Contact" doesn't truncate */
-    gap: 1.25rem !important;
+    /* reduce spacing so "Contact" doesn't get chopped */
+    gap: 1.1rem;
 
-    /* If your screen is slightly narrow, allow wrapping instead of cutting text */
-    flex-wrap: wrap !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
+    /* if window is tight, wrap instead of truncating */
+    flex-wrap: wrap;
   }
 
-  .greedy-nav .visible-links > li {
-    white-space: nowrap !important;
+  .greedy-nav .visible-links > li > a {
+    padding-left: .25rem;
+    padding-right: .25rem;
+    white-space: nowrap;
   }
 
-  /* Put the right-side controls at the far right */
+  /* Keep the icons/toggles on the right WITHOUT breaking layout */
   .greedy-nav .search__toggle,
   .greedy-nav .theme-toggle,
   .greedy-nav .toggle,
-  .greedy-nav .masthead__toggle,
-  .greedy-nav .greedy-nav__toggle {
-    margin-left: auto !important;
-  }
-
-  /* Hide hamburger + hidden dropdown on desktop */
   .greedy-nav__toggle {
-    display: none !important;
-  }
-  .greedy-nav .hidden-links {
-    display: none !important;
-  }
-
-  /* In case the theme uses different class names for the menu button */
-  .navicon,
-  .close-button,
-  .greedy-nav .close {
-    display: none !important;
+    margin-left: .75rem;
   }
 }
