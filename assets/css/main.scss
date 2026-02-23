@@ -3,9 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -42,51 +39,41 @@
     "vendor/font-awesome/brands"
 ;
 
+
 /* =========================
-   Custom Style Overrides
+   Avatar styling
    ========================= */
 
-/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
+
 /* =========================
-   Center ONLY the top menu items (not your name)
+   NAVIGATION FIX (Clean Version)
    ========================= */
 
-/* Make the masthead container behave like: left title + centered menu */
+/* Keep masthead layout normal */
 .masthead__inner-wrap {
-  display: flex !important;
-  align-items: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Keep your name (site title) on the left */
-.masthead__menu-item--lg,
+/* Keep your name fully left */
 .site-title {
-  margin-right: 0 !important;
+  flex: 0 0 auto;
 }
 
-/*
-  Center the navigation list in the remaining space.
-  This targets the UL that contains Biography / Research / Publications / CV / Contact.
-*/
-.masthead__menu ul.visible-links {
-  flex: 1 1 auto !important;
+/* Center only the visible nav links */
+.greedy-nav .visible-links {
   display: flex !important;
   justify-content: center !important;
-  align-items: center !important;
-  gap: 1.6rem !important;   /* spacing between menu items */
-  padding-left: 0 !important;
-  margin: 0 !important;
+  flex: 1;
+  gap: 2rem;
 }
 
-/* Prevent the menu container from forcing left alignment */
-.masthead__menu {
-  flex: 1 1 auto !important;
-}
-
-/* Keep the hamburger / more button on the right (mobile/overflow) */
-.masthead__menu .greedy-nav__toggle {
-  margin-left: auto !important;
+/* Keep toggle button on right */
+.greedy-nav .hidden-links {
+  right: 0;
 }
