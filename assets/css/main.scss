@@ -3,9 +3,6 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -46,6 +43,47 @@
    Custom Style Overrides
    ========================= */
 
+/* Slightly rounded avatar */
 .author__avatar img {
-  border-radius: 8px !important;  /* slightly rounded square */
+  border-radius: 8px !important;
+}
+
+/* Soft warm background */
+body {
+  background-color: #fffdf4;
+}
+
+/* Elegant yellow accent for links */
+a {
+  color: #b8860b;
+}
+
+a:hover {
+  color: #e6a800;
+}
+
+/* Subtle heading highlight */
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #f4d35e;
+  margin-top: 6px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+  background-color: #f4d35e;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #f1c40f;
+}
+
+/* Better readability */
+.page__content p {
+  line-height: 1.7;
 }
