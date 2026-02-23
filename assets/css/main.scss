@@ -3,105 +3,90 @@
 
 /*
  * This file controls what is imported from /_sass
- * The first two lines above are REQUIRED by Jekyll.
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
+    "vendor/breakpoint/breakpoint",
 
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-  "include/mixins",
-  "vendor/susy/susy",
+    "include/mixins",
+    "vendor/susy/susy",
 
-  "layout/reset",
-  "layout/base",
+    "layout/reset",
+    "layout/base",
 
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-  "layout/forms",
+    "layout/forms",
 
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
 ;
 
+/* =========================
+   Custom Style Overrides
+   ========================= */
 
-/* =================================================
-   CUSTOM STYLE OVERRIDES
-   ================================================= */
-
-/* Slightly rounded square avatar */
+/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
+/* =========================
+   Center ONLY the top menu items (not your name)
+   ========================= */
 
-/* ---------- Light Yellow Background ---------- */
-
-body {
-  background-color: #fdf6dc !important;   /* soft academic yellow */
-}
-
-.page,
-.archive,
-.layout--single {
-  background-color: #fdf6dc !important;
-}
-
-
-/* ---------- Header (Remove Gray) ---------- */
-
-.masthead {
-  background-color: #fdf6dc !important;
-  border-bottom: 1px solid #e6d8a8 !important;
-}
-
-
-/* ---------- Center Top Navigation ---------- */
-
+/* Make the masthead container behave like: left title + centered menu */
 .masthead__inner-wrap {
-  display: flex;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Keep your name (site title) on the left */
+.masthead__menu-item--lg,
+.site-title {
+  margin-right: 0 !important;
+}
+
+/*
+  Center the navigation list in the remaining space.
+  This targets the UL that contains Biography / Research / Publications / CV / Contact.
+*/
+.masthead__menu ul.visible-links {
+  flex: 1 1 auto !important;
+  display: flex !important;
   justify-content: center !important;
+  align-items: center !important;
+  gap: 1.6rem !important;   /* spacing between menu items */
+  padding-left: 0 !important;
+  margin: 0 !important;
 }
 
-.greedy-nav {
-  justify-content: center !important;
+/* Prevent the menu container from forcing left alignment */
+.masthead__menu {
+  flex: 1 1 auto !important;
 }
 
-.greedy-nav .visible-links {
-  justify-content: center !important;
-}
-
-
-/* ---------- Publication Titles Black ---------- */
-
-.archive__item-title a {
-  color: #000000 !important;
-}
-
-.archive__item-title a:hover {
-  color: #333333 !important;
-}
-
-
-/* ---------- Footer (Remove Blue Block) ---------- */
-
-.page__footer {
-  background-color: #fdf6dc !important;
-  border-top: 1px solid #e6d8a8 !important;
+/* Keep the hamburger / more button on the right (mobile/overflow) */
+.masthead__menu .greedy-nav__toggle {
+  margin-left: auto !important;
 }
