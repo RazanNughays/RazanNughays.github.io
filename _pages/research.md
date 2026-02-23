@@ -33,13 +33,13 @@ Ultimately, my goal is to establish quantitative structure–dynamics–function
 
 ### Structure-Governed Carrier Dynamics
 
-My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites, chalcogenides, and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
+My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
 
 ---
 
 ### Instrumentation Development
 
-I am particularly interested in advancing ultrafast microscopy approaches, including four-dimensional ultrafast scanning electron microscopy (4D-USEM) and time-resolved second harmonic generation (TR-SHG), that combine nanometer spatial resolution with femtosecond temporal precision to directly correlate nanoscale structure with dynamic function.
+I am particularly interested in advancing ultrafast microscopy approaches, including four-dimensional ultrafast scanning electron microscopy (**4D-USEM**) and time-resolved second harmonic generation (**TR-SHG**), that combine nanometer spatial resolution with femtosecond temporal precision to directly correlate nanoscale structure with dynamic function.
 
 ---
 
