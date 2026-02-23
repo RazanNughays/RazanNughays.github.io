@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "Research Interests"
 permalink: /research/
 author_profile: false
