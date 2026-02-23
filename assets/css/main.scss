@@ -49,88 +49,80 @@
 }
 
 /* =========================
-   Masthead layout
-   - Site title stays LEFT
-   - Nav links centered (desktop)
-   - Keep links visible (no greedy collapsing)
+   Masthead fixes (DESKTOP)
+   - Title stays LEFT and aligns with content padding
+   - Nav links centered
+   - Controls (gear/search) right
+   - No hamburger on desktop
    ========================= */
 
-/* Make sure masthead is a flex row */
-.masthead__inner-wrap,
-.masthead__menu {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-}
+@media (min-width: 64em) {
 
-/* Greedy nav container */
-.greedy-nav {
-  display: flex !important;
-  align-items: center !important;
-  width: 100% !important;
-}
+  /* Make masthead container match page content alignment */
+  .masthead__inner-wrap {
+    max-width: 1200px;        /* adjust if you want wider (e.g., 1280px) */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;       /* this is what aligns the title better */
+    padding-right: 1rem;
+  }
 
-/* Keep site title on the far left */
-.greedy-nav .site-title {
-  flex: 0 0 auto !important;
-  margin-right: 1.5rem !important;
-}
+  /* Greedy nav layout */
+  .greedy-nav {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
 
-/* Center the visible links */
-.greedy-nav .visible-links {
-  display: flex !important;
-  flex: 1 1 auto !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 2rem !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+  /* Title: left */
+  .greedy-nav .site-title {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+    padding-right: 1.25rem !important;
+  }
 
-/* IMPORTANT:
-   Stop greedy-nav from hiding items into hidden-links */
-.greedy-nav .visible-links > li {
-  display: inline-block !important;
-  width: auto !important;
-  white-space: nowrap !important;
-}
+  /* Center ONLY the visible nav links */
+  .greedy-nav .visible-links {
+    flex: 1 1 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 
-/* If some items already got moved into hidden-links, show them inline too */
-.greedy-nav .hidden-links {
-  display: flex !important;
-  position: static !important;
-  box-shadow: none !important;
-  background: transparent !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: 0 !important;
-}
+    /* IMPORTANT: reduce spacing so "Contact" doesn't truncate */
+    gap: 1.25rem !important;
 
-/* Make hidden links look like normal top links */
-.greedy-nav .hidden-links > li {
-  display: inline-block !important;
-  margin: 0 !important;
-}
-.greedy-nav .hidden-links a {
-  padding: 0 !important;
-  background: transparent !important;
-}
+    /* If your screen is slightly narrow, allow wrapping instead of cutting text */
+    flex-wrap: wrap !important;
 
-/* Hide the hamburger + close icon (desktop) */
-.greedy-nav__toggle {
-  display: none !important;
-}
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-/* Also hide the close icon if your theme uses another class */
-.navicon,
-.close-button,
-.greedy-nav .close {
-  display: none !important;
-}
+  .greedy-nav .visible-links > li {
+    white-space: nowrap !important;
+  }
 
-/* Safety: prevent dropdown styling if theme tries to apply it */
-.greedy-nav .hidden-links {
-  visibility: visible !important;
-  opacity: 1 !important;
-  transform: none !important;
+  /* Put the right-side controls at the far right */
+  .greedy-nav .search__toggle,
+  .greedy-nav .theme-toggle,
+  .greedy-nav .toggle,
+  .greedy-nav .masthead__toggle,
+  .greedy-nav .greedy-nav__toggle {
+    margin-left: auto !important;
+  }
+
+  /* Hide hamburger + hidden dropdown on desktop */
+  .greedy-nav__toggle {
+    display: none !important;
+  }
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  /* In case the theme uses different class names for the menu button */
+  .navicon,
+  .close-button,
+  .greedy-nav .close {
+    display: none !important;
+  }
 }
