@@ -49,3 +49,31 @@
 .author__avatar img {
   border-radius: 8px !important;  /* slightly rounded square */
 }
+/* =========================
+   CENTER NAV BAR (DESKTOP ONLY)
+   ========================= */
+
+@media (min-width: 64em) {
+
+  /* Make nav flex container */
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Keep site title fixed on left */
+  .greedy-nav .site-title {
+    flex: 0 0 auto;
+  }
+
+  /* Center the visible links only */
+  .greedy-nav .visible-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2rem;
+  }
+
+}
