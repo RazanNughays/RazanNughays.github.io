@@ -11,18 +11,6 @@ author_profile: true
 
 
 My research is driven by a simple question:  
-
-
-**How do the interface and structure at the nanoscale control the way energy moves?**
-<p align="center">
-<strong>How do the interface and structure at the nanoscale control the way energy moves?</strong>
-</p>
-
-
-<p align="center" style="font-size: 1.4em;">
-<strong>How do the interface and structure at the nanoscale control the way energy moves?</strong>
-</p>
-
 <p align="center" style="font-size: 1.4em; font-weight: 500;">
 How do the interface and structure at the nanoscale control the way energy moves?
 </p>
