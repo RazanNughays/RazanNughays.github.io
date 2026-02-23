@@ -106,3 +106,111 @@
     margin-left: .75rem;
   }
 }
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+
+/* =========================
+   Custom Style Overrides
+   ========================= */
+
+/* Avatar: slightly rounded square */
+.author__avatar img {
+  border-radius: 8px !important;
+}
+
+/* =========================
+   NAV: keep title left, center menu items (DESKTOP only)
+   IMPORTANT: we are NOT hiding toggles or hidden-links.
+   ========================= */
+
+@media (min-width: 64em) {
+
+  /* Make masthead align better with page content */
+  .masthead__inner-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Ensure the nav container is flex */
+  .greedy-nav,
+  nav.greedy-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Keep your name on the left */
+  .greedy-nav .site-title {
+    flex: 0 0 auto;
+    margin-right: 1.25rem;
+  }
+
+  /* Center the visible menu items */
+  .greedy-nav .visible-links {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* reduce spacing so "Contact" doesn't get chopped */
+    gap: 1.1rem;
+
+    /* if window is tight, wrap instead of truncating */
+    flex-wrap: wrap;
+  }
+
+  .greedy-nav .visible-links > li > a {
+    padding-left: .25rem;
+    padding-right: .25rem;
+    white-space: nowrap;
+  }
+
+  /* Keep the icons/toggles on the right WITHOUT breaking layout */
+  .greedy-nav .search__toggle,
+  .greedy-nav .theme-toggle,
+  .greedy-nav .toggle,
+  .greedy-nav__toggle {
+    margin-left: .75rem;
+  }
+}
