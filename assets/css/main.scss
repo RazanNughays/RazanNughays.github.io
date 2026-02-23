@@ -2,8 +2,8 @@
 ---
 
 /*
- * Main stylesheet for AcademicPages / Minimal Mistakes
- * Keep ONLY ONE front matter block above.
+ * This file controls what is imported from /_sass
+ * The first two lines above are REQUIRED by Jekyll.
  */
 
 @import
@@ -40,108 +40,62 @@
   "vendor/font-awesome/brands"
 ;
 
-/* =========================
-   Custom Style Overrides
-   ========================= */
+/* =========================================================
+   CUSTOM OVERRIDES
+   ========================================================= */
 
-/* Avatar: slightly rounded square */
+/* -------------------------
+   Avatar (square + soft corners)
+   ------------------------- */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
-/* -------------------------
-   Masthead alignment:
-   make the top bar align with the same content width as the page
-   ------------------------- */
-
-/* Minimal Mistakes uses a centered container; ensure masthead matches it */
-.masthead__inner-wrap {
-  max-width: 1280px;     /* helps stop "Contact" being clipped */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/* -------------------------
-   NAV layout (DESKTOP):
-   Title on left, menu centered, icons right
-   ------------------------- */
+/* =========================================================
+   NAVIGATION LAYOUT
+   Keep name LEFT
+   Center menu items
+   Keep icons RIGHT
+   DESKTOP ONLY
+   ========================================================= */
 
 @media (min-width: 64em) {
 
-  /* Force a stable 3-zone layout inside the nav */
+  /* Ensure nav is flex */
   .greedy-nav {
-    display: grid;
-    grid-template-columns: auto 1fr auto; /* left / center / right */
-    align-items: center;
-    width: 100%;
-    gap: 0.75rem;
-  }
-
-  /* LEFT: site title */
-  .greedy-nav .site-title {
-    grid-column: 1;
-    justify-self: start;
-    margin: 0; /* remove theme margins that cause drifting */
-  }
-
-  /* CENTER: visible links */
-  .greedy-nav .visible-links {
-    grid-column: 2;
-    justify-self: center;
-
     display: flex;
     align-items: center;
+    width: 100%;
+  }
+
+  /* SITE TITLE (your name) — LEFT */
+  .greedy-nav .site-title {
+    flex: 0 0 auto;
+    padding-left: 0 !important;
+    margin-left: 0 !important;   /* aligns with avatar column */
+  }
+
+  /* MENU ITEMS — CENTER */
+  .greedy-nav .visible-links {
+    flex: 1 1 auto;
+    display: flex;
     justify-content: center;
-    gap: 1.25rem;
-
-    /* IMPORTANT: do NOT wrap on desktop; wrapping causes weird shifts */
-    flex-wrap: nowrap;
-    white-space: nowrap;
-
-    /* prevent clipping */
-    min-width: 0;
+    align-items: center;
+    gap: 1.5rem;
   }
 
-  /* tighten link padding so "Contact" fits */
   .greedy-nav .visible-links > li > a {
-    padding: 0.25rem 0.35rem;
     white-space: nowrap;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
-  /* RIGHT: toggles/icons (search/theme/hamburger if present) */
+  /* RIGHT ICONS */
   .greedy-nav .search__toggle,
   .greedy-nav .theme-toggle,
+  .greedy-nav .toggle,
   .greedy-nav__toggle {
-    grid-column: 3;
-    justify-self: end;
-    margin-left: 0.5rem;
-  }
-
-  /* If the theme has hidden-links dropdown, keep it on the right too */
-  .greedy-nav .hidden-links {
-    right: 0;
-    left: auto;
+    flex: 0 0 auto;
+    margin-left: auto;
   }
 }
-
-/* -------------------------
-   NAV layout (TABLET):
-   reduce spacing/font a bit so "Contact" doesn’t truncate
-   ------------------------- */
-
-@media (min-width: 48em) and (max-width: 64em) {
-  .greedy-nav .visible-links {
-    gap: 0.9rem;
-  }
-  .greedy-nav .visible-links > li > a {
-    padding: 0.2rem 0.25rem;
-    font-size: 0.98em;
-  }
-}
-
-/* -------------------------
-   Small screens:
-   keep default hamburger behavior (don’t fight the theme here)
-   ------------------------- */
