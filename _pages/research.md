@@ -2,7 +2,7 @@
 layout: single
 title: "Research Interests"
 permalink: /research/
-author_profile: true
+author_profile: false
 ---
 
 ### Focus Areas
