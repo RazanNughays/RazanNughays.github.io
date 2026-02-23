@@ -36,102 +36,86 @@
 ;
 
 /* =====================================================
-   Custom Style Overrides – Razan O. Nughays Website
+   CLEAN MINIMAL ACADEMIC STYLE – LIGHT YELLOW
    ===================================================== */
 
-/* -------------------------
-   Background (soft yellow)
-   ------------------------- */
+/* -------- Background everywhere -------- */
 
-body {
-  background-color: #fffdf3 !important;   /* very soft academic cream */
+body,
+.page,
+.page__content,
+.archive {
+  background-color: #fffdf3 !important;
 }
 
+/* Remove grey content box */
+.page__inner-wrap {
+  background-color: transparent !important;
+}
 
-/* -------------------------
-   Header / Navigation
-   ------------------------- */
+/* -------- Header -------- */
 
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav {
-  background-color: #fff7d6 !important;   /* light yellow header */
-  border-bottom: 1px solid #f1e2a6;
+  background-color: #fff7d6 !important;
+  border-bottom: 1px solid #e9d98f;
 }
 
-/* Navigation text */
-.greedy-nav a {
-  color: #2b2b2b !important;
-  font-weight: 500;
-}
-
-/* Hover & active state */
-.greedy-nav a:hover,
-.greedy-nav .active a {
-  color: #8a6d00 !important;
-}
-
-
-/* -------------------------
-   Footer (remove blue)
-   ------------------------- */
+/* -------- Footer (remove blue completely) -------- */
 
 .page__footer {
   background-color: #fff7d6 !important;
-  color: #333 !important;
-  border-top: 1px solid #f1e2a6;
+  color: #222 !important;
+  border-top: 1px solid #e9d98f;
 }
 
-.page__footer a {
-  color: #8a6d00 !important;
+/* -------- Publication Titles = BLACK -------- */
+
+.archive__item-title a {
+  color: #000000 !important;
+  font-weight: 600;
 }
 
+.archive__item-title a:hover {
+  color: #000000 !important;
+  text-decoration: underline;
+}
 
-/* -------------------------
-   Links
-   ------------------------- */
+/* -------- Normal links subtle -------- */
 
 a {
-  color: #8a6d00;
+  color: #444;
 }
 
 a:hover {
-  color: #c28a00;
+  color: #000;
 }
 
-
-/* -------------------------
-   Buttons
-   ------------------------- */
+/* -------- Buttons neutral -------- */
 
 .btn {
   background-color: #f4d35e;
-  color: #333;
-  border-radius: 10px;
+  color: #222;
+  border-radius: 8px;
 }
 
 .btn:hover {
-  background-color: #f1c40f;
+  background-color: #e9c84d;
 }
 
-
-/* -------------------------
-   Avatar (square not circle)
-   ------------------------- */
+/* -------- Avatar square -------- */
 
 .author__avatar img {
-  border-radius: 8px !important;   /* slightly rounded square */
+  border-radius: 8px !important;
 }
 
+/* -------- Typography -------- */
 
-/* -------------------------
-   Improve readability
-   ------------------------- */
+h1, h2, h3, h4 {
+  color: #000;
+}
 
 .page__content p {
   line-height: 1.75;
-}
-
-h1, h2, h3 {
-  color: #2b2b2b;
 }
