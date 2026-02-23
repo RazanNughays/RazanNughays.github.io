@@ -1,6 +1,11 @@
 ---
 ---
 
+/*
+ * Main SCSS File
+ * Academic Pages / Minimal Mistakes
+ */
+
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -35,42 +40,64 @@
     "vendor/font-awesome/brands"
 ;
 
+
 /* =====================================================
-   CLEAN MINIMAL ACADEMIC STYLE – LIGHT YELLOW
+   CUSTOM LIGHT YELLOW THEME OVERRIDES
    ===================================================== */
 
-/* -------- Background everywhere -------- */
 
+/* ---- FORCE LIGHT BACKGROUND EVERYWHERE ---- */
+
+html,
 body,
+.site,
+.initial-content,
+.layout--single,
+.layout--archive,
+.layout--home,
 .page,
+.page__inner-wrap,
 .page__content,
-.archive {
+.archive,
+.wrapper,
+main {
   background-color: #fffdf3 !important;
 }
 
-/* Remove grey content box */
+
+/* Remove grey card container look */
 .page__inner-wrap {
-  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
-/* -------- Header -------- */
+
+/* ---- HEADER ---- */
 
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav {
   background-color: #fff7d6 !important;
-  border-bottom: 1px solid #e9d98f;
+  border-bottom: 1px solid #e6d38a !important;
 }
 
-/* -------- Footer (remove blue completely) -------- */
+
+/* Navigation links */
+.greedy-nav a {
+  color: #000 !important;
+}
+
+
+/* ---- FOOTER ---- */
 
 .page__footer {
   background-color: #fff7d6 !important;
   color: #222 !important;
-  border-top: 1px solid #e9d98f;
+  border-top: 1px solid #e6d38a !important;
 }
 
-/* -------- Publication Titles = BLACK -------- */
+
+/* ---- PUBLICATION TITLES BLACK ---- */
 
 .archive__item-title a {
   color: #000000 !important;
@@ -82,40 +109,16 @@ body,
   text-decoration: underline;
 }
 
-/* -------- Normal links subtle -------- */
+
+/* ---- REMOVE BLUE UNDERLINES / ACCENT COLOR ---- */
 
 a {
-  color: #444;
+  color: #000 !important;
 }
 
-a:hover {
-  color: #000;
-}
 
-/* -------- Buttons neutral -------- */
-
-.btn {
-  background-color: #f4d35e;
-  color: #222;
-  border-radius: 8px;
-}
-
-.btn:hover {
-  background-color: #e9c84d;
-}
-
-/* -------- Avatar square -------- */
+/* ---- AVATAR ROUNDED SQUARE ---- */
 
 .author__avatar img {
   border-radius: 8px !important;
-}
-
-/* -------- Typography -------- */
-
-h1, h2, h3, h4 {
-  color: #000;
-}
-
-.page__content p {
-  line-height: 1.75;
 }
