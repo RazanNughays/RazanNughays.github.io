@@ -3,7 +3,9 @@
 
 /*
  * This file controls what is imported from /_sass
- * The first two lines above are REQUIRED by Jekyll.
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -40,62 +42,83 @@
   "vendor/font-awesome/brands"
 ;
 
-/* =========================================================
-   CUSTOM OVERRIDES
-   ========================================================= */
+/* =========================
+   Custom Style Overrides
+   ========================= */
 
-/* -------------------------
-   Avatar (square + soft corners)
-   ------------------------- */
+/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
-/* =========================================================
-   NAVIGATION LAYOUT
-   Keep name LEFT
-   Center menu items
-   Keep icons RIGHT
-   DESKTOP ONLY
-   ========================================================= */
+/* =========================
+   NAV (DESKTOP):
+   - Name stays LEFT
+   - Menu items centered
+   - Icons (gear/search) stay RIGHT
+   - Hamburger hidden on desktop (kept on mobile)
+   ========================= */
 
 @media (min-width: 64em) {
 
-  /* Ensure nav is flex */
-  .greedy-nav {
-    display: flex;
+  /* Make the top bar align with page content */
+  .masthead__inner-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Use a 3-column grid: [title] [menu centered] [icons right] */
+  .greedy-nav,
+  nav.greedy-nav {
+    display: grid !important;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     width: 100%;
   }
 
-  /* SITE TITLE (your name) — LEFT */
+  /* Title on the left */
   .greedy-nav .site-title {
-    flex: 0 0 auto;
-    padding-left: 0 !important;
-    margin-left: 0 !important;   /* aligns with avatar column */
+    grid-column: 1;
+    justify-self: start;
+    margin-right: 1.25rem;
+    white-space: nowrap;
   }
 
-  /* MENU ITEMS — CENTER */
+  /* Menu centered and ALWAYS visible on desktop */
   .greedy-nav .visible-links {
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
+    grid-column: 2;
+    justify-self: center;
+
+    display: flex !important;
     align-items: center;
-    gap: 1.5rem;
+    justify-content: center;
+    gap: 1.4rem;
+
+    flex-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .greedy-nav .visible-links > li > a {
+    color: inherit;
+    padding: 0.25rem 0.35rem;
     white-space: nowrap;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
   }
 
-  /* RIGHT ICONS */
+  /* Put the right-side controls in the right column */
   .greedy-nav .search__toggle,
   .greedy-nav .theme-toggle,
   .greedy-nav .toggle,
   .greedy-nav__toggle {
-    flex: 0 0 auto;
-    margin-left: auto;
+    grid-column: 3;
+    justify-self: end;
+    margin-left: 0.9rem;
+  }
+
+  /* Hide hamburger + dropdown behavior on desktop */
+  .greedy-nav__toggle {
+    display: none !important;
+  }
+  .greedy-nav .hidden-links {
+    display: none !important;
   }
 }
