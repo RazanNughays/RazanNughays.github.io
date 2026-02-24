@@ -9,80 +9,43 @@
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
+    "vendor/breakpoint/breakpoint",
 
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-  "include/mixins",
-  "vendor/susy/susy",
+    "include/mixins",
+    "vendor/susy/susy",
 
-  "layout/reset",
-  "layout/base",
+    "layout/reset",
+    "layout/base",
 
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-  "layout/forms",
+    "layout/forms",
 
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
 ;
 
 /* =========================
    Custom Style Overrides
    ========================= */
 
-/* Avatar: slightly rounded square */
 .author__avatar img {
-  border-radius: 8px !important;
-}
-
-/* =========================
-   DESKTOP NAV FIX:
-   - Remove site title (top name) if you don't want it
-   - Keep nav links visible (no collapsing into hamburger)
-   - Hide hamburger on desktop
-   ========================= */
-
-@media (min-width: 64em) {
-
-  /* (1) You said: remove the site name from the top */
-  .masthead .site-title,
-  .masthead .greedy-nav .site-title {
-    display: none !important;
-  }
-
-  /* (2) Force the real menu to stay visible */
-  .masthead .greedy-nav .visible-links {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 auto;
-    gap: 1.6rem;
-    flex-wrap: nowrap;
-  }
-
-  /* (3) Stop GreedyNav from hiding items into the dropdown on desktop */
-  .masthead .greedy-nav .hidden-links {
-    display: none !important;
-  }
-
-  /* (4) Hide hamburger on desktop (keep it on mobile) */
-  .masthead .greedy-nav__toggle {
-    display: none !important;
-  }
+  border-radius: 8px !important; /* slightly rounded square */
 }
