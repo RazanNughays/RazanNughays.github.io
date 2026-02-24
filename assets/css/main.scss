@@ -46,27 +46,45 @@
    Custom Style Overrides
    ========================= */
 
-/* Slightly rounded avatar */
+/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
 
 /* =========================
-   Center navigation links ONLY
+   NAV: center the top links (Greedy Nav)
    ========================= */
 
-.masthead__menu {
-  text-align: center;
+/* (Optional) hide the site title in the header ONLY (keeps your author profile on the left sidebar) */
+.masthead .site-title {
+  display: none !important;
 }
 
-.masthead__menu ul {
-  display: inline-flex;
-  justify-content: center;
-  gap: 2rem;
+/* Make the nav container span full width */
+.masthead__menu,
+.masthead__menu nav,
+.greedy-nav {
+  width: 100% !important;
 }
 
-/* Keep site title aligned left */
-.site-title {
-  position: absolute;
-  left: 1rem;
+/* Center the visible links block */
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* Keep spacing consistent */
+.greedy-nav .visible-links > li {
+  margin: 0 1.25rem !important;
+}
+
+/* Keep the icons (search/theme) from pulling the menu off-center */
+.greedy-nav .search__toggle,
+.greedy-nav .theme-toggle,
+.greedy-nav__toggle {
+  position: absolute !important;
+  right: 1rem !important;
 }
