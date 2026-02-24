@@ -4,8 +4,7 @@
 /*
  * This file controls what is imported from /_sass
  *
- * Note that the files are processed in the order they are imported, so they are partly
- * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * The first two lines are required by Jekyll.
  */
 
 @import
@@ -42,6 +41,7 @@
     "vendor/font-awesome/brands"
 ;
 
+
 /* =========================
    Custom Style Overrides
    ========================= */
@@ -51,50 +51,32 @@
   border-radius: 8px !important;
 }
 
+
 /* =========================
-   NAV: Center the top links (SAFE GreedyNav version)
-   - does NOT use absolute positioning
-   - keeps hamburger/search working
+   DESKTOP ONLY NAV CENTERING
+   (Does NOT break layout)
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Hide the site title in the header (keeps your author sidebar name/avatar) */
-  .masthead .site-title {
-    display: none !important;
+  /* Keep original flex behavior */
+  .greedy-nav {
+    display: flex;
+    align-items: center;
   }
 
-  /* Make GreedyNav a normal flex row */
-  .masthead__menu nav.greedy-nav,
-  nav.greedy-nav {
-    display: flex !important;
-    align-items: center !important;
-    width: 100% !important;
+  /* Keep site title on left */
+  .greedy-nav .site-title {
+    margin-right: auto;
+    white-space: nowrap;
   }
 
-  /* Center the visible links */
+  /* Center menu items */
   .greedy-nav .visible-links {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex: 1 1 auto !important;
-    margin: 0 auto !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
   }
 
-  /* Put spacing between menu items */
-  .greedy-nav .visible-links > li {
-    margin: 0 1.25rem !important;
-  }
-
-  /* Keep the toggles/icons on the right, BUT in normal flow (no absolute) */
-  .greedy-nav .search__toggle,
-  .greedy-nav .theme-toggle,
-  .greedy-nav__toggle {
-    margin-left: auto !important;
-  }
-
-  /* Don’t let GreedyNav hide the visible links because of width weirdness */
-  .greedy-nav .visible-links {
-    white-space: nowrap !important;
-  }
 }
