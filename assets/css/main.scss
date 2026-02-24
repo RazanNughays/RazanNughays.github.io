@@ -52,67 +52,59 @@
 }
 
 /* =========================
-   NAV: keep site title LEFT, center menu items (DESKTOP ONLY)
-   Safe version: anchors absolute centering correctly.
+   NAV (DESKTOP):
+   Left: site title (name)
+   Center: menu items
+   Right: icons (theme/search/hamburger)
+   This prevents your name from wrapping into "O." / "Nughays".
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Anchor for absolute centering */
-  .masthead__inner-wrap,
-  .greedy-nav {
-    position: relative;
+  /* Make the main nav a 3-column grid */
+  .greedy-nav,
+  nav.greedy-nav {
+    display: grid !important;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    column-gap: 1.25rem;
+    width: 100%;
   }
 
-  /* Keep title stable on the left (no wrapping) */
+  /* 1) Keep your name on the LEFT and never wrap */
   .greedy-nav .site-title {
-    white-space: nowrap;
-    flex: 0 0 auto;
+    grid-column: 1;
+    justify-self: start;
+    white-space: nowrap !important;
+    display: inline-block;
+    margin-right: 0;
   }
 
-  /* Center only the visible links */
+  /* 2) Center the visible menu links */
   .greedy-nav .visible-links {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
+    grid-column: 2;
+    justify-self: center;
     display: flex;
     align-items: center;
-    gap: 1.75rem;
-
+    justify-content: center;
+    gap: 1.6rem;
+    flex-wrap: nowrap;          /* keep one line */
+    white-space: nowrap;        /* prevent breaking */
     margin: 0;
     padding: 0;
+  }
+
+  .greedy-nav .visible-links > li > a {
     white-space: nowrap;
   }
 
-  /* Keep icons/toggles on the right */
+  /* 3) Push ALL toggles/icons to the RIGHT */
   .greedy-nav .search__toggle,
   .greedy-nav .theme-toggle,
-  .greedy-nav__toggle {
-    margin-left: auto;
-  }
-
-  /* If both exist, keep some spacing */
-  .greedy-nav .theme-toggle {
-    margin-left: 1rem;
-  }
-  .greedy-nav__toggle {
-    margin-left: 1rem;
-  }
-}
-@media (min-width: 64em) {
-
-  /* Give the site title a guaranteed width so it won't wrap */
-  .greedy-nav .site-title {
-    display: inline-block;
-    min-width: 120px;      /* adjust if you want more/less */
-    white-space: nowrap;
-  }
-
-  /* Ensure the centered links don't steal space from the title */
-  .greedy-nav .visible-links {
-    max-width: calc(100% - 320px); /* title + right icons buffer */
-    overflow: hidden;
+  .greedy-nav .greedy-nav__toggle,
+  .greedy-nav .toggle {
+    grid-column: 3;
+    justify-self: end;
+    margin-left: .5rem;
   }
 }
