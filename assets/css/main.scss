@@ -46,6 +46,27 @@
    Custom Style Overrides
    ========================= */
 
+/* Slightly rounded avatar */
 .author__avatar img {
-  border-radius: 8px !important; /* slightly rounded square */
+  border-radius: 8px !important;
+}
+
+/* =========================
+   Center navigation links ONLY
+   ========================= */
+
+.masthead__menu {
+  text-align: center;
+}
+
+.masthead__menu ul {
+  display: inline-flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Keep site title aligned left */
+.site-title {
+  position: absolute;
+  left: 1rem;
 }
