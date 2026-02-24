@@ -9,71 +9,95 @@
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
+    "vendor/breakpoint/breakpoint",
 
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-  "include/mixins",
-  "vendor/susy/susy",
+    "include/mixins",
+    "vendor/susy/susy",
 
-  "layout/reset",
-  "layout/base",
+    "layout/reset",
+    "layout/base",
 
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-  "layout/forms",
+    "layout/forms",
 
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
 ;
 
 /* =========================
    Custom Style Overrides
    ========================= */
 
+/* Avatar: slightly rounded square */
 .author__avatar img {
-  border-radius: 8px !important;  /* slightly rounded square */
+  border-radius: 8px !important;
 }
+
 /* =========================
-   CENTER NAV BAR (DESKTOP ONLY)
+   NAV: keep site title LEFT, center menu items (DESKTOP ONLY)
+   Safe version: anchors absolute centering correctly.
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Make nav flex container */
+  /* Anchor for absolute centering */
+  .masthead__inner-wrap,
   .greedy-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: relative;
   }
 
-  /* Keep site title fixed on left */
+  /* Keep title stable on the left (no wrapping) */
   .greedy-nav .site-title {
+    white-space: nowrap;
     flex: 0 0 auto;
   }
 
-  /* Center the visible links only */
+  /* Center only the visible links */
   .greedy-nav .visible-links {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 1.75rem;
+
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
   }
 
+  /* Keep icons/toggles on the right */
+  .greedy-nav .search__toggle,
+  .greedy-nav .theme-toggle,
+  .greedy-nav__toggle {
+    margin-left: auto;
+  }
+
+  /* If both exist, keep some spacing */
+  .greedy-nav .theme-toggle {
+    margin-left: 1rem;
+  }
+  .greedy-nav__toggle {
+    margin-left: 1rem;
+  }
 }
