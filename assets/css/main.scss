@@ -106,7 +106,7 @@
   /* Give the site title a guaranteed width so it won't wrap */
   .greedy-nav .site-title {
     display: inline-block;
-    min-width: 220px;      /* adjust if you want more/less */
+    min-width: 120px;      /* adjust if you want more/less */
     white-space: nowrap;
   }
 
