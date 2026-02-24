@@ -52,51 +52,37 @@
 }
 
 /* =========================
-   REMOVE SITE NAME FROM TOP NAV (ALL PAGES)
-   Keeps author profile in sidebar.
-   ========================= */
-
-.masthead .site-title,
-.greedy-nav .site-title {
-  display: none !important;
-}
-
-/* =========================
-   CENTER NAV ITEMS (DESKTOP)
+   DESKTOP NAV FIX:
+   - Remove site title (top name) if you don't want it
+   - Keep nav links visible (no collapsing into hamburger)
+   - Hide hamburger on desktop
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Make greedy-nav use full width and align items */
-  .greedy-nav,
-  nav.greedy-nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  /* (1) You said: remove the site name from the top */
+  .masthead .site-title,
+  .masthead .greedy-nav .site-title {
+    display: none !important;
   }
 
-  /* Center the visible menu items */
-  .greedy-nav .visible-links {
-    flex: 1 1 auto;
-    display: flex;
+  /* (2) Force the real menu to stay visible */
+  .masthead .greedy-nav .visible-links {
+    display: flex !important;
     justify-content: center;
     align-items: center;
-    gap: 1.4rem;
-    flex-wrap: wrap;
-    margin-left: 0 !important;
+    flex: 1 1 auto;
+    gap: 1.6rem;
+    flex-wrap: nowrap;
   }
 
-  .greedy-nav .visible-links > li > a {
-    white-space: nowrap;
-    padding-left: .25rem;
-    padding-right: .25rem;
+  /* (3) Stop GreedyNav from hiding items into the dropdown on desktop */
+  .masthead .greedy-nav .hidden-links {
+    display: none !important;
   }
 
-  /* Keep the icons on the right */
-  .greedy-nav .search__toggle,
-  .greedy-nav .theme-toggle,
-  .greedy-nav .toggle,
-  .greedy-nav__toggle {
-    margin-left: .75rem;
+  /* (4) Hide hamburger on desktop (keep it on mobile) */
+  .masthead .greedy-nav__toggle {
+    display: none !important;
   }
 }
