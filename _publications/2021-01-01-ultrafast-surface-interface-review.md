@@ -3,7 +3,6 @@ title: "Access to Ultrafast Surface and Interface Carrier Dynamics Simultaneousl
 collection: publications
 category: reviews
 link: "https://doi.org/10.1021/acs.jpcc.1c02433"
-citation: "Zhao, J., Nughays, R. O., Bakr, O. M., Mohammed, O. F. Access to Ultrafast Surface and Interface Carrier Dynamics Simultaneously in Space and Time. Journal of Physical Chemistry C 125, 14495–14516 (2021)."
 ---
 
 J. Zhao, **R. O. Nughays**, O. M. Bakr, O. F. Mohammed, *Journal of Physical Chemistry C* **125**, 14495–14516 (2021).
