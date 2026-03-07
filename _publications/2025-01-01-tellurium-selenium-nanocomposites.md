@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 date: 2025-01-01
 link: "https://doi.org/10.1021/acs.jpcc.5c07387"
-citation: "Nughays, R. O., Xing, C., Deokar, G., Wehbe, N., Zhang, Y., Maity, P., Nematulloev, S., Gutiérrez-Arzaluz, L., El-Zohry, A. M., Zhang, S., Li, J., Fu, X., Zhao, J. Visualizing and Modulating the Surface Carrier Dynamics of Tellurium–Selenium Nanocomposites. Journal of Physical Chemistry C (2025)."
 ---
 
 **R. O. Nughays,**, C. Xing, G. Deokar, N. Wehbe, Y. Zhang, P. Maity, S. Nematulloev, L. Gutiérrez-Arzaluz, A. M. El-Zohry, S. Zhang, J. Li, X. Fu, J. Zhao,  *Journal of Physical Chemistry C* (2025).
