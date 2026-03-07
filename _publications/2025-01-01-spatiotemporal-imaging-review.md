@@ -4,10 +4,8 @@ collection: publications
 category: reviews
 date: 2025-01-01
 link: "https://doi.org/10.1016/j.matt.2025.102423"
-citation: "Wang, L., Nughays, R. O., Mohammed, O. F. Spatiotemporal Imaging of Photogenerated Charge Carriers in Optoelectronic Materials. Matter (2025)."
 ---
 
-Wang, L., Nughays, R. O., Mohammed, O. F.  
-*Matter* (2025).
+L. Wang, **R. O. Nughays**, O. F. Mohammed, *Matter* (2025).
 
 This review article surveys advanced ultrafast microscopy and spectroscopy techniques for resolving photogenerated charge-carrier dynamics with simultaneous spatial and temporal precision. It evaluates how electron- and photon-based approaches enable direct visualization of transport, recombination, and interfacial processes in optoelectronic materials.
