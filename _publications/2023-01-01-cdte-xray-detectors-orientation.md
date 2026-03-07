@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 date: 2023-01-01
 link: "https://doi.org/10.1016/j.xcrp.2023.101723"
-citation: "Wang, L., Nughays, R. O., Song, X., Bian, T., Hedhili, M. N., Yin, J., Bakr, O. M., Mohammed, O. F. Crystallographic Orientation-Dependent Photoresponse of Planar Cadmium Telluride X-ray Detectors. Cell Reports Physical Science 4, 101723 (2023)."
 ---
 
 L. Wang, **R. O. Nughays**, X. Song, T. Bian, M. N. Hedhili, J. Yin, O. M. Bakr, O. F. Mohammed, *Cell Reports Physical Science* **4**, 101723 (2023).
