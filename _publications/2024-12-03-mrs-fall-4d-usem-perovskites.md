@@ -5,5 +5,5 @@ category: conferences
 date: 2024-12-03
 venue: "2024 MRS Fall Meeting & Exhibit (Symposium CH06.04.07), Boston, MA"
 link: "https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2024-fall-meeting/2024-fall-meeting-4138887"
-excerpt: "**Oral Presentation | MRS Fall Meeting | 2024.** Oral presentation demonstrating how four-dimensional ultrafast scanning electron microscopy (4D-USEM) enables direct visualization of surface-specific carrier dynamics and interfacial transport in single-crystal perovskites."
+excerpt: "**Oral Presentation — MRS Fall Meeting, 2024.** Oral presentation demonstrating how four-dimensional ultrafast scanning electron microscopy (4D-USEM) enables direct visualization of surface-specific carrier dynamics and interfacial transport in single-crystal perovskites."
 ---
