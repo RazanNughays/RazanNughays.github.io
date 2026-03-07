@@ -5,13 +5,15 @@ permalink: /
 author_profile: true
 ---
 
-Razan Omar Nughays is a Postdoctoral Associate at the Massachusetts Institute of Technology (MIT), working with Professor Tisdale. Her work focuses on developing and applying ultrafast experimental techniques to understand energy transport in complex materials.
+My name is Razan Omar Nughays, a Postdoctoral Associate at the [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/), working with [Prof. William A. Tisdale](https://scholar.google.com/citations?user=EUtacFEAAAAJ&hl=en). My research focuses on developing and applying ultrafast experimental techniques to understand energy transport and charge-carrier dynamics in complex materials.
 
-She earned her Ph.D. in Materials Science and Engineering from King Abdullah University of Science and Technology (KAUST) in Saudi Arabia, where she utilized  a four-dimensional Ultrafast Scanning Electron Microscopy (4D-USEM) to visualize charge carrier transport in real space and real time. 
-Her doctoral research emphasized how crystal orientation, surface composition and nanoscale heterogeneity influence electronic dynamics in semiconductors relevant to photovoltaics and optoelectronics.
+I earned my Ph.D. in Materials Science and Engineering from [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/) in Saudi Arabia, where I conducted my doctoral research in the [Omar F. Mohammed Research Group]([https://omar-f-mohammed.kaust.edu.sa/](https://scholar.google.co.id/citations?user=CBirkSwAAAAJ&hl=id). During my Ph.D., I used four-dimensional Ultrafast Scanning Electron Microscopy (4D-USEM) to visualize charge-carrier transport in real space and real time. My work explored how crystal orientation, surface composition, and nanoscale heterogeneity influence electronic dynamics in semiconductors relevant to photovoltaics and optoelectronics.
 
 <p align="center">
   <img src="/images/PhD.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 50%; height: auto;">
 </p>
 
-At MIT, she investigates interfacial dynamics using time-resolved nonlinear optical methods. Her research integrates advanced instrumentation development with fundamental studies of ultrafast processes, with the broader goal of correlating structure to function in energy-relevant materials.
+At MIT, I investigate interfacial carrier dynamics using time-resolved nonlinear optical techniques. More broadly, my research integrates advanced instrumentation development with fundamental studies of ultrafast processes, with the goal of correlating structure with function in energy-relevant materials.
+
+
+
