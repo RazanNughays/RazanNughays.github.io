@@ -7,3 +7,4 @@ venue: "SPIE OPTO 2023 — Ultrafast Phenomena and Nanophotonics XXVII (Proc. SP
 link: "https://doi.org/10.1117/12.2661619"
 excerpt: "Conference proceeding demonstrating direct real-space visualization of surface carrier diffusion lengths in single-crystal perovskites using ultrafast electron imaging."
 ---
+**Poster Presentation — SPIE Photonics West, 2023**
