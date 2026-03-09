@@ -24,6 +24,7 @@ author_profile: false
 
   .gallery-text {
     flex: 1;
+    text-align: left;
   }
 
   .gallery-thumb {
@@ -43,6 +44,10 @@ author_profile: false
 
   .gallery-thumb.large {
     width: 320px;
+  }
+
+  .gallery-thumb.poster {
+    width: 420px;
   }
 
   .lightbox {
@@ -120,17 +125,52 @@ author_profile: false
 
   <div class="gallery-row">
     <div class="gallery-text">
-      <h2>KAUST Graduation Ceremony</h2>
+      <h2>Ph.D. Defense — KAUST</h2>
       <p>
-        <em>Ph.D. Graduation — KAUST (2025).</em><br>
-        Celebrating the completion of my Ph.D. in Materials Science and Engineering
-        at King Abdullah University of Science and Technology (KAUST).
+        <em>Doctoral Dissertation Defense — King Abdullah University of Science and Technology (2025).</em><br>
+        Successfully defending my Ph.D. dissertation titled
+        <em>“Visualization of Surface Charge Carrier Dynamics in Semiconductors Using Ultrafast Scanning Electron Microscopy.”</em>
+        under the supervision of Professor Omar F. Mohammed.
+      </p>
+    </div>
+
+    <img src="/images/defense.jpg"
+         alt="PhD Defense at KAUST"
+         class="gallery-thumb medium"
+         onclick="openLightbox(this.src)">
+  </div>
+
+  <hr style="margin:60px 0;">
+
+  <div class="gallery-row">
+    <div class="gallery-text">
+      <h2>KAUST Graduation Ceremony and Hooding</h2>
+      <p>
+        <em>Ph.D. Graduation Ceremony — KAUST (2025).</em><br>
+        Celebrating the completion of my Ph.D. in Materials Science and Engineering and the hooding ceremony marking the conclusion of my doctoral journey at King Abdullah University of Science and Technology.
       </p>
     </div>
 
     <img src="/images/PhD.png"
-         alt="KAUST Graduation Ceremony"
-         class="gallery-thumb small"
+         alt="KAUST Graduation Ceremony and Hooding"
+         class="gallery-thumb medium"
+         onclick="openLightbox(this.src)">
+  </div>
+
+  <hr style="margin:60px 0;">
+
+  <div class="gallery-row">
+    <div class="gallery-text">
+      <h2>MRS Fall Meeting</h2>
+      <p>
+        <em>Oral Presentation — MRS Fall Meeting, Boston, USA (2024).</em><br>
+        Presented research on probing surface-specific charge-carrier dynamics in single-crystal perovskites using four-dimensional ultrafast scanning electron microscopy (4D-USEM).
+      </p>
+    </div>
+
+    <img src="/images/MRS.png"
+         alt="MRS Fall Meeting Presentation"
+         class="gallery-thumb poster"
          onclick="openLightbox(this.src)">
   </div>
 
@@ -142,8 +182,7 @@ author_profile: false
       <p>
         <em>Best Poster Presentation Award — The 20th International Microscopy Congress (IMC20), Busan, South Korea (2023).</em><br>
         Awarded for the poster
-        <em>“Real-space Mapping of Carrier Dynamics in CdTe Crystals:
-        From 4D Electron Imaging to X-ray Detectors.”</em>
+        <em>“Real-space Mapping of Carrier Dynamics in CdTe Crystals: From 4D Electron Imaging to X-ray Detectors.”</em>
       </p>
     </div>
 
@@ -159,17 +198,14 @@ author_profile: false
     <div class="gallery-text">
       <h2>IMC20 Poster Presentation</h2>
       <p>
-        <em>Poster Presentation — The 20th International Microscopy Congress (IMC20),
-        Busan, South Korea (2023).</em><br>
-        Presentation of research on real-space visualization of carrier dynamics in
-        CdTe crystals using 4D ultrafast electron microscopy and its relevance for
-        X-ray detector technologies.
+        <em>Poster Presentation — The 20th International Microscopy Congress (IMC20), Busan, South Korea (2023).</em><br>
+        Presented research on real-space visualization of carrier dynamics in CdTe crystals using 4D ultrafast electron microscopy and its relevance for X-ray detector technologies.
       </p>
     </div>
 
     <img src="/images/IMC20.png"
          alt="IMC20 Poster Presentation"
-         class="gallery-thumb medium"
+         class="gallery-thumb poster"
          onclick="openLightbox(this.src)">
   </div>
 
@@ -179,35 +215,14 @@ author_profile: false
     <div class="gallery-text">
       <h2>SPIE Photonics West Poster</h2>
       <p>
-        <em>Poster Presentation — SPIE Photonics West,
-        San Francisco, USA (2023).</em><br>
-        Poster presentation on the visualization of surface charge-carrier diffusion
-        lengths in single-crystal perovskites using four-dimensional ultrafast
-        scanning electron microscopy (4D-USEM).
+        <em>Poster Presentation — SPIE Photonics West, San Francisco, USA (2023).</em><br>
+        Presented research on the visualization of surface charge-carrier diffusion lengths in single-crystal perovskites using four-dimensional ultrafast scanning electron microscopy (4D-USEM).
       </p>
     </div>
 
     <img src="/images/SPIE.png"
          alt="SPIE Photonics West Poster"
-         class="gallery-thumb medium"
-         onclick="openLightbox(this.src)">
-  </div>
-
-  <hr style="margin:60px 0;">
-
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>KAUST Research Poster</h2>
-      <p>
-        <em>KAUST Research Poster Presentation.</em><br>
-        Research on mapping surface charge-carrier dynamics in perovskite materials
-        using 4D-USEM for photovoltaic applications.
-      </p>
-    </div>
-
-    <img src="/images/ACWAPOWER.png"
-         alt="KAUST Research Poster"
-         class="gallery-thumb medium"
+         class="gallery-thumb poster"
          onclick="openLightbox(this.src)">
   </div>
 
