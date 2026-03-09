@@ -5,11 +5,13 @@ permalink: /gallery/
 author_profile: false
 ---
 
-<h3>Women in Engineering Day — Saudi Engineering Council</h3>
+<div>
+  <h3>Women in Engineering Day — Saudi Engineering Council</h3>
 
-<blockquote class="twitter-tweet">
-  <a href="https://x.com/eng_council/status/1937217845169094707"></a>
-</blockquote>
+  <blockquote class="twitter-tweet">
+    <a href="https://x.com/eng_council/status/1937217845169094707"></a>
+  </blockquote>
+</div>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
