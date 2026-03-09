@@ -1,1 +1,18 @@
 
+<h3>Women in Engineering Day — Saudi Engineering Council</h3>
+
+<blockquote class="twitter-tweet">
+<a href="https://x.com/eng_council/status/1937217845169094707"></a>
+</blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Women in Engineering Day — Saudi Engineering Council
+
+Featured in a video released by the Saudi Engineering Council celebrating the contributions of Saudi women engineers.
+
+
+<p align="center">
+  <img src="/images/PhD.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 50%; height: auto;">
+</p>
+
+KAUST Graduation Cermony in 2025.
