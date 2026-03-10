@@ -16,7 +16,7 @@ author_profile: false
 <div style="text-align:center; margin:50px 0;">
 
 <video autoplay loop muted playsinline
-       style="max-width:420px; width:100%; border-radius:8px;">
+       style="max-width:300px; width:100%; border-radius:8px;">
 
   <source src="/images/dif.mp4" type="video/mp4">
 
