@@ -15,13 +15,18 @@ author_profile: false
 ---
 <div style="text-align:center; margin:50px 0;">
 
-<video width="420" controls style="max-width:100%; border-radius:8px;">
+<video autoplay loop muted playsinline
+       style="max-width:420px; width:100%; border-radius:8px;">
+
   <source src="/images/dif.mp4" type="video/mp4">
+
 </video>
 
-<p style="font-size:0.9em;">
-Conceptual illustration of carrier dynamics and surface-sensitive detection.
+<p style="font-size:0.9em; margin-top:10px;">
+Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
 </p>
+
+</div>
 
 </div>
 My research is centered on a fundamental question:
