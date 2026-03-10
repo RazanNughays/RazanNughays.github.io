@@ -13,7 +13,17 @@ author_profile: false
 - Interfacial Energy Transport  
 
 ---
+<div style="text-align:center; margin:50px 0;">
 
+<video width="420" controls style="max-width:100%; border-radius:8px;">
+  <source src="/images/dif.mp4" type="video/mp4">
+</video>
+
+<p style="font-size:0.9em;">
+Conceptual illustration of carrier dynamics and surface-sensitive detection.
+</p>
+
+</div>
 My research is centered on a fundamental question:
 
 <p align="center" style="font-size: 1.4em; font-weight: 500;">
