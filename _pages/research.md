@@ -22,6 +22,13 @@ author_profile: false
 
 </video>
 
+<video autoplay loop muted playsinline
+       style="max-width:300px; width:100%; border-radius:8px;">
+
+  <source src="/images/mig.mp4" type="video/mp4">
+
+</video>
+
 <p style="font-size:0.9em; margin-top:10px;">
 Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
 </p>
