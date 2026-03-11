@@ -22,6 +22,8 @@ author_profile: false
 
 </video>
 
+</div>
+
 <video autoplay loop muted playsinline
        style="max-width:300px; width:100%; border-radius:8px;">
 
