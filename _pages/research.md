@@ -25,7 +25,7 @@ author_profile: false
 </div>
 
 <video autoplay loop muted playsinline
-       style="max-width:300px; width:100%; border-radius:8px;">
+       style="max-width:350px; width:100%; border-radius:8px;">
 
   <source src="/images/mig.mp4" type="video/mp4">
 
