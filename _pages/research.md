@@ -22,7 +22,7 @@ Why do materials that appear similar often exhibit dramatically different perfor
 
 <p align="center">
 <img src="/images/interface-energy-flow.png"
-style="width:95%; max-width:1400px; height:auto;">
+style="width:95%; max-width:600px; height:auto;">
 </p>
 
 <p style="font-size:0.9em; margin-top:10px; text-align:center;">
@@ -157,7 +157,7 @@ My goal is to establish quantitative structure–dynamics–function relationshi
 
 <p align="center">
 <img src="/images/4D-USEM.png"
-style="width:95%; max-width:1500px; height:auto;">
+style="width:95%; max-width:400px; height:auto;">
 </p>
 
 This direction builds on my doctoral research, where I employed and refined 4D-USEM to directly visualize charge-carrier dynamics in real space and real time. By leveraging electron–matter interactions within a pump–probe framework, I resolved surface-specific diffusion, trapping, and recombination pathways with nanometer spatial resolution. That work established a structure-sensitive perspective that now informs my nonlinear optical investigations of interfacial energy flow.
