@@ -8,12 +8,14 @@ redirect_from:
 ---
 
 ## Education
-- **Ph.D., Materials Science and Engineering**, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia (Summer 2020 – Fall 2025). 
-- **M.Sc., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia (Fall 2018 – Summer 2020).  
-- **B.Sc., General Physics**, King Abdulaziz University (KAU), Jeddah, Saudi Arabia (Fall 2013 – Spring 2017). 
+- **Ph.D., Materials Science and Engineering**, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia, 2025. 
+- **M.Sc., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia, 2020.  
+- **B.Sc., General Physics**, King Abdulaziz University (KAU), Jeddah, Saudi Arabia, 2017. 
 
+## Current Postion
+- **Postdoctoral Researcher (Chemical Engineering)**, MIT
+  
 ## Research & Teaching Experience
-- **Postdoctoral (Chemical Engineering)**, MIT (Prof. William A. Tisdale), Boston, USA (Fall 2026 – Present).
 - **Ph.D. Student**, KAUST (Prof. Omar F. Mohammed) (Summer 2020 – Fall 2025). 
 - **Mentor**, KAUST Academy Summer Internship Program (Summer 2025). 
 - **Teaching Assistant**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
