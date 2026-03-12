@@ -13,6 +13,19 @@ author_profile: false
 - Interfacial Energy Transport  
 
 ---
+
+
+</div>
+My research is drivin by one question:
+
+<p align="center" style="font-size: 1.4em; font-weight: 500;">
+How do interfaces and nanoscale structure control devices' efficency?
+</p>
+
+<p align="center">
+  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 500px; width: 40%; height: auto;">
+</p>
+
 <div style="text-align:center; margin:50px 0;">
 
 <video autoplay loop muted playsinline
@@ -33,19 +46,6 @@ author_profile: false
 
 <p style="font-size:0.9em; margin-top:10px;">
 Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
-</p>
-
-</div>
-
-</div>
-My research is centered on a fundamental question:
-
-<p align="center" style="font-size: 1.4em; font-weight: 500;">
-How do interfaces and nanoscale structure control the way energy moves?
-</p>
-
-<p align="center">
-  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 900px; width: 80%; height: auto;">
 </p>
 
 Energy transport in functional materials is fundamentally governed by nanoscale structure, symmetry, and interfacial carrier properties. My research seeks to understand how these factors dictate the spatiotemporal evolution of electronic excitations.
