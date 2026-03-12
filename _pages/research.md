@@ -14,13 +14,10 @@ author_profile: false
 
 ---
 
-
-</div>
 My research is driven by a deep curiosity:
-Why do materials that appear similar often exhibit dramatically different performance?
 
 <p align="center" style="font-size: 1.4em; font-weight: 500;">
-How do interfaces and nanoscale structure control devices' efficency?
+Why do materials that appear similar often exhibit dramatically different performance?
 </p>
 
 <p align="center">
@@ -49,15 +46,25 @@ How do interfaces and nanoscale structure control devices' efficency?
 Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
 </p>
 
-Energy transport in functional materials is fundamentally governed by nanoscale structure, symmetry, and interfacial carrier properties. My research seeks to understand how these factors dictate the spatiotemporal evolution of electronic excitations.
+In functional materials, energy flow is controlled by surface structure (crystallographic orientation, termination, and composition), symmetry, and the interfacial electronic properties. My research seeks to understand how these factors shape carrier dynamics and influence material performance, ultimately guiding to rational design of next-generation functional materials and devices.
 
-I develop ultrafast microscopic techniques to resolve charge-carrier dynamics with simultaneous nanometer spatial and femtosecond temporal precision. By combining advanced laser systems with microscopy, I access complementary regimes of light–matter interactions to directly visualize nonequilibrium transport processes at surfaces and interfaces. I interrogate how crystallographic orientation, defect landscapes, band bending, and structural heterogeneity shape energy flow in semiconductors, hybrid materials, and radiation detectors.
 
-Ultimately, my goal is to establish quantitative structure–dynamics–function relationships that connect nanoscale morphology to macroscopic device performance. By bridging real-space imaging with nonlinear spectroscopy, I aim to enable predictive design principles for next-generation photovoltaic, sensing, and energy-conversion technologies.
+
 
 ---
 
-### Structure-Governed Carrier Dynamics
+### Orientation and termination effects on charge carrier dynamics:
+
+Two different perovskites have been 
+
+<div style="text-align:center; margin:50px 0;">
+
+<video autoplay loop muted playsinline
+       style="max-width:300px; width:100%; border-radius:8px;">
+
+  <source src="/images/dif.mp4" type="video/mp4">
+
+</video>
 
 My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
 
@@ -68,6 +75,9 @@ My research investigates how crystallographic orientation, surface termination, 
 I am particularly interested in advancing ultrafast microscopy approaches, including four-dimensional ultrafast scanning electron microscopy (**4D-USEM**) and time-resolved second harmonic generation (**TR-SHG**), that combine nanometer spatial resolution with femtosecond temporal precision to directly correlate nanoscale structure with dynamic function.
 
 ---
+
+y goal is to establish quantitative structure–dynamics–function relationships that connect nanoscale morphology to macroscopic device performance. By bridging real-space imaging with nonlinear spectroscopy, I aim to enable predictive design principles for next-generation photovoltaic, sensing, and energy-conversion technologies.
+
 
 ### Foundations in Ultrafast Electron Microscopy
 
