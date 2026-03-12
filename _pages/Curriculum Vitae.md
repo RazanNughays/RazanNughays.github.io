@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Education
-- **Ph.D., Materials Science and Engineering**, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia, 2025. 
+- **Ph.D., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia, 2025. 
 - **M.Sc., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia, 2020.  
 - **B.Sc., General Physics**, King Abdulaziz University (KAU), Jeddah, Saudi Arabia, 2017. 
 
@@ -16,9 +16,11 @@ redirect_from:
 - **Postdoctoral Researcher, Chemical Engineering**, MIT, United States
   
 ## Research Experience
-- **MIT**, KAUST (Prof. Omar F. Mohammed) (Summer 2020 – Fall 2025). 
-- **KAUST**, KAUST Academy Summer Internship Program (Summer 2025). 
-- **University of California Santa Barbra**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
+- **MIT** Ultrafast Lasers Microscopy, Present
+- **KAUST**: Ultrafast Scanning Electron Microscopy (U-SEM), 2020-2025
+- **University of California Santa Barbra**, Spring 2024
+- **KAUST**: Synthesis MXene for a self-healing material, 2019
+- **KAUST**: Transfer graphene efficiently to suitable substrates, 2019
 
 ## Mentoring and Teaching Experince 
 - Mentor: Master and undergrade students as Part of Summer Internship at KAUST, 2025
@@ -33,8 +35,7 @@ redirect_from:
 - **Mentor**, KAUST Academy Summer Internship Program (Summer 2025). 
 - **Teaching Assistant**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
 - **Traveling Scholar / Internship**, UCSB (Prof. Bolin Liao) (Summer 2024). 
-- **Directed Research**, KAUST (Prof. Vincent Tung) (Fall 2019). 
-- **Directed Research**, KAUST (Prof. Pedro M. Da Costa) (Summer 2019). 
+
 
 ## Selected Publications
 <ul>
