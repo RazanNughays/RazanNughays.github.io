@@ -6,7 +6,7 @@ permalink: /research/
 author_profile: false
 ---
 
-<div style="max-width:1500px; width:100%; margin:0 auto;">
+<div style="width:100%;">
 
 ### Focus Areas
 - Nonlinear Optical Microscopy and Spectroscopy  
@@ -18,12 +18,12 @@ author_profile: false
 
 My research is driven by a deep curiosity:
 
-<p align="center" style="font-size: 1.4em; font-weight: 500;">
+<p align="center" style="font-size: 1.45em; font-weight: 500;">
 Why do materials that appear similar often exhibit dramatically different performance?
 </p>
 
 <p align="center">
-  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 1200px; width: 95%; height: auto;">
+  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 1350px; width: 96%; height: auto;">
 </p>
 
 <p style="font-size:0.9em; margin-top:10px; text-align:center;">
@@ -36,9 +36,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 <h2>Orientation and Termination Effects on Charge Carrier Dynamics</h2>
 
-<div style="display:flex; align-items:flex-start; gap:90px; margin:50px 0; width:100%;">
+<div style="display:flex; align-items:flex-start; gap:110px; margin:55px 0; width:100%;">
 
-  <div style="flex:1.7;">
+  <div style="flex:2; min-width:0;">
 
     <h3>Perovskites for Solar and Sensing Applications</h3>
 
@@ -54,9 +54,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
   </div>
 
-  <div style="flex:1.1; text-align:center;">
+  <div style="flex:1.35; text-align:center; min-width:0;">
 
-    <video autoplay loop muted playsinline style="max-width:620px; width:100%; border-radius:8px;">
+    <video autoplay loop muted playsinline style="max-width: 720px; width: 100%; border-radius: 8px;">
       <source src="/images/dif.mp4" type="video/mp4">
     </video>
 
@@ -64,9 +64,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 </div>
 
-<div style="display:flex; align-items:flex-start; gap:90px; margin:50px 0; width:100%;">
+<div style="display:flex; align-items:flex-start; gap:110px; margin:55px 0; width:100%;">
 
-  <div style="flex:1.7;">
+  <div style="flex:2; min-width:0;">
 
     <h3>CdTe for X-ray Detectors</h3>
 
@@ -82,9 +82,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
   </div>
 
-  <div style="flex:1.1; text-align:center;">
+  <div style="flex:1.35; text-align:center; min-width:0;">
 
-    <img src="/images/Xray.png" alt="Orientation-dependent X-ray detector performance in CdTe" style="max-width:620px; width:100%; height:auto; border-radius:8px;">
+    <img src="/images/Xray.png" alt="Orientation-dependent X-ray detector performance in CdTe" style="max-width: 720px; width: 100%; height: auto; border-radius: 8px;">
 
   </div>
 
@@ -94,9 +94,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 <h2>Composition-Dependent Carrier Dynamics</h2>
 
-<div style="display:flex; align-items:flex-start; gap:90px; margin:50px 0; width:100%;">
+<div style="display:flex; align-items:flex-start; gap:110px; margin:55px 0; width:100%;">
 
-  <div style="flex:1.7;">
+  <div style="flex:2; min-width:0;">
 
     <h3>Mixed-Cation Perovskites</h3>
 
@@ -112,9 +112,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
   </div>
 
-  <div style="flex:1.1; text-align:center;">
+  <div style="flex:1.35; text-align:center; min-width:0;">
 
-    <video autoplay loop muted playsinline style="max-width:650px; width:100%; border-radius:8px;">
+    <video autoplay loop muted playsinline style="max-width: 760px; width: 100%; border-radius: 8px;">
       <source src="/images/mig.mp4" type="video/mp4">
     </video>
 
@@ -122,9 +122,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 </div>
 
-<div style="display:flex; align-items:flex-start; gap:90px; margin:50px 0; width:100%;">
+<div style="display:flex; align-items:flex-start; gap:110px; margin:55px 0; width:100%;">
 
-  <div style="flex:1.7;">
+  <div style="flex:2; min-width:0;">
 
     <h3>Te–Se Nanocomposites</h3>
 
@@ -140,9 +140,9 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
   </div>
 
-  <div style="flex:1.1; text-align:center;">
+  <div style="flex:1.35; text-align:center; min-width:0;">
 
-    <img src="/images/TeSe.png" alt="Composition-dependent surface dynamics in Te–Se nanocomposites" style="max-width:620px; width:100%; height:auto; border-radius:8px;">
+    <img src="/images/TeSe.png" alt="Composition-dependent surface dynamics in Te–Se nanocomposites" style="max-width: 720px; width: 100%; height: auto; border-radius: 8px;">
 
   </div>
 
@@ -161,7 +161,7 @@ My goal is to establish quantitative structure–dynamics–function relationshi
 ### Foundations in Ultrafast Electron Microscopy
 
 <p align="center">
-  <img src="/images/4D-USEM.png" alt="4D-USEM system" style="max-width: 1300px; width: 95%; height: auto;">
+  <img src="/images/4D-USEM.png" alt="4D-USEM system" style="max-width: 1400px; width: 96%; height: auto;">
 </p>
 
 This direction builds on my doctoral research, where I employed and refined 4D-USEM to directly visualize charge-carrier dynamics in real space and real time. By leveraging electron–matter interactions within a pump–probe framework, I resolved surface-specific diffusion, trapping, and recombination pathways with nanometer spatial resolution. That work established a structure-sensitive perspective that now informs my nonlinear optical investigations of interfacial energy flow.
