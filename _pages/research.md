@@ -59,7 +59,7 @@ My research investigates how crystallographic orientation, surface termination, 
 
 </div>
 
-</div>   <!-- THIS WAS MISSING -->
+</div>   
 
 
 <div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
@@ -86,6 +86,27 @@ Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we inve
 
 </div>
 
+<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
+
+  <div style="flex:1;">
+
+
+
+    <p>
+      Surface carrier dynamics in Te–Se nanocomposites were investigated using SUEM, fs-TA, XPS, and DFT. The results reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
+    </p>
+
+  </div>
+
+  <div style="flex:1; text-align:center;">
+
+    <img src="/images/Xray.png"
+         alt="Interface and structure control energy flow"
+         style="max-width:300px; width:100%; height:auto; border-radius:8px;">
+
+  </div>
+
+</div>
 
 
 ---
