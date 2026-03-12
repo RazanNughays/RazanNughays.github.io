@@ -51,20 +51,47 @@
   border-radius: 8px !important;
 }
 
-/* Wider page content */
-.page {
-  max-width: 1400px;
+
+/* =========================
+   WIDER SITE CONTENT
+   ========================= */
+
+/* Main page container */
+#main {
+  max-width: 1500px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
-.page__content {
-  max-width: 1200px;
-  width: 100%;
-}
-
-/* Optional: let archive pages breathe more */
+/* Archive/content container */
 .archive {
-  max-width: 1200px;
-  width: 100%;
+  width: 100% !important;
+  max-width: 1400px !important;
+}
+
+/* Main content area */
+.page {
+  width: 100% !important;
+  max-width: 1400px !important;
+}
+
+/* Text/content block */
+.page__content,
+.archive__item,
+.archive__item-excerpt {
+  max-width: 100% !important;
+}
+
+/* If sidebar exists, let main content use more space */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 220px !important;
+  }
+
+  .page {
+    width: calc(100% - 260px) !important;
+    max-width: none !important;
+  }
 }
 
 
@@ -80,7 +107,6 @@
     width: 100%;
   }
 
-  /* Keep menu centered */
   .greedy-nav .visible-links {
     display: flex;
     justify-content: center;
@@ -88,7 +114,6 @@
     margin: 0 auto;
   }
 
-  /* Keep right-side toggle/icon aligned */
   .greedy-nav .greedy-nav__toggle,
   .greedy-nav .search__toggle,
   .greedy-nav .theme-toggle {
