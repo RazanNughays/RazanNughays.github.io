@@ -24,16 +24,7 @@ Why do materials that appear similar often exhibit dramatically different perfor
   <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 800px; width: 70%; height: auto;">
 </p>
 
-<div style="text-align:center; margin:50px 0;">
 
-<video autoplay loop muted playsinline
-       style="max-width:300px; width:100%; border-radius:8px;">
-
-  <source src="/images/dif.mp4" type="video/mp4">
-
-</video>
-
-</div>
 
 <video autoplay loop muted playsinline
        style="max-width:330px; width:100%; border-radius:8px;">
@@ -53,11 +44,17 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 ---
 
-### Orientation and termination effects on charge carrier dynamics:
+<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
 
-Two different perovskites have been 
+<div style="flex:1;">
 
-<div style="text-align:center; margin:50px 0;">
+<h3>Orientation and Termination Effects on Charge Carrier Dynamics</h3>
+
+My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
+
+</div>
+
+<div style="flex:1; text-align:center;">
 
 <video autoplay loop muted playsinline
        style="max-width:300px; width:100%; border-radius:8px;">
@@ -66,7 +63,9 @@ Two different perovskites have been
 
 </video>
 
-My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
+</div>
+
+</div>
 
 ---
 
