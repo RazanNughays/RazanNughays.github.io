@@ -16,14 +16,15 @@ author_profile: false
 
 
 </div>
-My research is drivin by one question:
+My research is driven by a deep curiosity:
+Why do materials that appear similar often exhibit dramatically different performance?
 
 <p align="center" style="font-size: 1.4em; font-weight: 500;">
 How do interfaces and nanoscale structure control devices' efficency?
 </p>
 
 <p align="center">
-  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 500px; width: 40%; height: auto;">
+  <img src="/images/interface-energy-flow.png" alt="Interface and structure control energy flow" style="max-width: 800px; width: 70%; height: auto;">
 </p>
 
 <div style="text-align:center; margin:50px 0;">
