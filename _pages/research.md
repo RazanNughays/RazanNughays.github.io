@@ -8,6 +8,20 @@ author_profile: false
 
 My research focuses on understanding how surface structure, composition, and interfacial chemistry govern charge-carrier dynamics in semiconductors and optoelectronic materials. By combining ultrafast microscopy and spectroscopy, I study how nanoscale variations in crystallographic orientation, termination, and composition reshape carrier diffusion, trapping, and recombination, ultimately influencing macroscopic device performance.
 
+<p align="center" style="font-size:1.35em; font-weight:500; margin-top:30px;">
+Why do materials that appear similar often exhibit dramatically different performance?
+</p>
+
+<p align="center" style="margin-top:25px;">
+  <img src="/images/interface-energy-flow.png"
+       alt="Interface and structure control energy flow"
+       style="max-width:1100px; width:90%; height:auto;">
+</p>
+
+<p style="text-align:center; font-size:0.9em; margin-top:10px;">
+Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
+</p>
+
 ---
 
 ## 1. Orientation and Termination Effects on Charge Carrier Dynamics
@@ -28,7 +42,7 @@ Using ultrafast scanning electron microscopy (USEM), we investigated how crystal
 
 <div style="flex:1; text-align:center;">
 
-<video autoplay loop muted playsinline style="max-width:520px; width:80%; border-radius:10px;">
+<video autoplay loop muted playsinline style="max-width:520px; width:100%; border-radius:10px;">
   <source src="/images/dif.mp4" type="video/mp4">
 </video>
 
@@ -123,5 +137,5 @@ My broader aim is to establish quantitative structure–dynamics–function rela
 <p align="center" style="margin-top:30px;">
   <img src="/images/4D-USEM.png"
        alt="4D-USEM system"
-       style="max-width:500px; width:90%; height:auto;">
+       style="max-width:1100px; width:90%; height:auto;">
 </p>
