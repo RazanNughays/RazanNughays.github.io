@@ -39,7 +39,7 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 <div style="flex:2.2;">
 
-### Perovskites for Solar and Sensing Applications
+**Perovskites for Solar and Sensing Applications**
 
 Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination. These findings highlight the critical role of surface structure in controlling carrier transport and provide design principles for engineering more efficient perovskite optoelectronic devices.
 
@@ -66,7 +66,7 @@ style="width:100%; max-width:820px; border-radius:8px;">
 
 <div style="flex:2.2;">
 
-### CdTe for X-ray Detectors
+**CdTe for X-ray Detectors**
 
 Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations. These results demonstrate that crystallographic orientation strongly governs carrier transport and highlight orientation engineering as a key strategy for improving high-energy X-ray detectors.
 
@@ -81,7 +81,7 @@ Photoinduced carrier dynamics in CdTe single crystals were investigated to under
 <div style="flex:1.4; text-align:center;">
 
 <img src="/images/Xray.png"
-style="width:100%; max-width:820px; height:auto; border-radius:8px;">
+style="width:70%; max-width:650px; height:auto; border-radius:8px;">
 
 </div>
 
@@ -95,7 +95,7 @@ style="width:100%; max-width:820px; height:auto; border-radius:8px;">
 
 <div style="flex:2.2;">
 
-### Mixed-Cation Perovskites
+**Mixed-Cation Perovskites**
 
 Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
 
@@ -122,7 +122,7 @@ style="width:100%; max-width:860px; border-radius:8px;">
 
 <div style="flex:2.2;">
 
-### Te–Se Nanocomposites
+**Te–Se Nanocomposites**
 
 Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
 
@@ -137,7 +137,7 @@ Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dep
 <div style="flex:1.4; text-align:center;">
 
 <img src="/images/TeSe.png"
-style="width:100%; max-width:820px; height:auto; border-radius:8px;">
+style="width:800%; max-width:650px; height:auto; border-radius:8px;">
 
 </div>
 
