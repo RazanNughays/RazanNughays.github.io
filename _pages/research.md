@@ -47,7 +47,13 @@ In functional materials, energy flow is controlled by surface structure (crystal
 <h3>Perovskites for Solar and Sensing Applications</h3>
 
 <p>
-Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination.
+Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination. These findings highlight the critical role of surface structure in controlling carrier transport and provide design principles for engineering more efficient perovskite optoelectronic devices.
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://doi.org/10.1002/adom.202300190" target="_blank">
+<strong>Read full paper →</strong>
+</a>
 </p>
 
 </div>
@@ -72,7 +78,13 @@ style="max-width:300px; width:100%; border-radius:8px;">
 <h3>CdTe for X-ray Detectors</h3>
 
 <p>
-Photoinduced carrier dynamics in CdTe single crystals reveal strong orientation-dependent detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations.
+Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations. These results demonstrate that crystallographic orientation strongly governs carrier transport and highlight orientation engineering as a key strategy for improving high-energy X-ray detectors.
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://doi.org/10.1016/j.xcrp.2023.101723" target="_blank">
+<strong>Read full paper →</strong>
+</a>
 </p>
 
 </div>
@@ -98,7 +110,13 @@ style="max-width:300px; width:100%; height:auto; border-radius:8px;">
 <h3>Mixed-Cation Perovskites</h3>
 
 <p>
-Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers.
+Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://doi.org/10.1002/advs.202404468" target="_blank">
+<strong>Read full paper →</strong>
+</a>
 </p>
 
 </div>
@@ -123,7 +141,13 @@ style="max-width:330px; width:100%; border-radius:8px;">
 <h3>Te–Se Nanocomposites</h3>
 
 <p>
-Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dependent surface behavior. TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination.
+Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://doi.org/10.1021/acs.jpcc.5c07387" target="_blank">
+<strong>Read full paper →</strong>
+</a>
 </p>
 
 </div>
