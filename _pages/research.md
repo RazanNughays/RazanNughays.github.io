@@ -137,7 +137,7 @@ Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dep
 <div style="flex:1.4; text-align:center;">
 
 <img src="/images/TeSe.png"
-style="width:800%; max-width:650px; height:auto; border-radius:8px;">
+style="width:80%; max-width:650px; height:auto; border-radius:8px;">
 
 </div>
 
