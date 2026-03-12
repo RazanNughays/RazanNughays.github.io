@@ -18,24 +18,16 @@ redirect_from:
 ## Research Experience
 - **MIT** Ultrafast Lasers Microscopy, Present
 - **KAUST**: Ultrafast Scanning Electron Microscopy (U-SEM), 2020-2025
-- **University of California Santa Barbra**, Spring 2024
+- **University of California Santa Barbra**, Tracking thermal effects on backscattered electron diffraction (BSED) pattern in silicon using
+modified direct detector in SEM, 2024
 - **KAUST**: Synthesis MXene for a self-healing material, 2019
-- **KAUST**: Transfer graphene efficiently to suitable substrates, 2019
+- **KAUST**: Transfer graphene efficiently to suitable substrates, 2018
 
 ## Mentoring and Teaching Experince 
-- Mentor: Master and undergrade students as Part of Summer Internship at KAUST, 2025
-- Teaching Assiatnce, 2024
-- Teaching Assistance, 2023
-- Mentor: Ph.D. studendts on U-SEM, 2021
-- Mentor: Ph.D. student, 2025
-- Mentor:  
-
-- 
-- **Ph.D. Student**, KAUST (Prof. Omar F. Mohammed) (Summer 2020 – Fall 2025). 
-- **Mentor**, KAUST Academy Summer Internship Program (Summer 2025). 
-- **Teaching Assistant**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
-- **Traveling Scholar / Internship**, UCSB (Prof. Bolin Liao) (Summer 2024). 
-
+- 2025: Mentored two students from KAUST Academy in a research-based summer internship. That included: running experiments, data interpretation, literature readings and scientific communication.
+- 2025: Teaching Assistant for Materials Characterization course.
+- 2025: Mentored a Ph.D. student on U-SEM.
+- 2022: Mentored a Ph.D. student on U-SEM,
 
 ## Selected Publications
 <ul>
