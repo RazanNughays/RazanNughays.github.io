@@ -13,9 +13,22 @@ redirect_from:
 - **B.Sc., General Physics**, King Abdulaziz University (KAU), Jeddah, Saudi Arabia, 2017. 
 
 ## Current Postion
-- **Postdoctoral Researcher (Chemical Engineering)**, MIT
+- **Postdoctoral Researcher, Chemical Engineering**, MIT, United States
   
-## Research & Teaching Experience
+## Research Experience
+- **MIT**, KAUST (Prof. Omar F. Mohammed) (Summer 2020 – Fall 2025). 
+- **KAUST**, KAUST Academy Summer Internship Program (Summer 2025). 
+- **University of California Santa Barbra**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
+
+## Mentoring and Teaching Experince 
+- Mentor: Master and undergrade students as Part of Summer Internship at KAUST, 2025
+- Teaching Assiatnce, 2024
+- Teaching Assistance, 2023
+- Mentor: Ph.D. studendts on U-SEM, 2021
+- Mentor: Ph.D. student, 2025
+- Mentor:  
+
+- 
 - **Ph.D. Student**, KAUST (Prof. Omar F. Mohammed) (Summer 2020 – Fall 2025). 
 - **Mentor**, KAUST Academy Summer Internship Program (Summer 2025). 
 - **Teaching Assistant**, KAUST — Materials Characterization (MSE 228) (Spring 2025; Spring 2024). 
