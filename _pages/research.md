@@ -44,6 +44,8 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 <h3>Orientation and Termination Effects on Charge Carrier Dynamics</h3>
 
+<h3>Perovskites for Solar and Sensing Applications</h3>
+
 My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
 
 </div>
@@ -66,10 +68,32 @@ My research investigates how crystallographic orientation, surface termination, 
 
 <div style="flex:1;">
 
+<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
+
+<div style="flex:1;">
+
+<h3>CdTe for X-ray Detectors</h3>
+
+<p>
+Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations. These results demonstrate that crystallographic orientation strongly governs carrier transport and highlight orientation engineering as a key strategy for improving high-energy X-ray detectors.
+</p>
+
+</div>
+
+<div style="flex:1; text-align:center;">
+
+<img src="/images/Xray.png"
+     alt="Orientation-dependent X-ray detector performance in CdTe"
+     style="max-width:300px; width:100%; height:auto; border-radius:8px;">
+
+</div>
+
+</div>
+
 ---
 <h3>Composition-Dependent Carrier Dynamics</h3>
 
-Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskite single crystals, FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
+Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskite, FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
 
 </div>
 
@@ -93,14 +117,14 @@ Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we inve
 
 
     <p>
-      Surface carrier dynamics in Te–Se nanocomposites were investigated using SUEM, fs-TA, XPS, and DFT. The results reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
+      Surface carrier dynamics in Te–Se nanocomposites were investigated. The results reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
     </p>
 
   </div>
 
   <div style="flex:1; text-align:center;">
 
-    <img src="/images/Xray.png"
+    <img src="/images/TeSe.png"
          alt="Interface and structure control energy flow"
          style="max-width:300px; width:100%; height:auto; border-radius:8px;">
 
