@@ -51,32 +51,47 @@
   border-radius: 8px !important;
 }
 
+/* Wider page content */
+.page {
+  max-width: 1400px;
+}
+
+.page__content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Optional: let archive pages breathe more */
+.archive {
+  max-width: 1200px;
+  width: 100%;
+}
+
 
 /* =========================
    DESKTOP ONLY NAV CENTERING
-   (Does NOT break layout)
    ========================= */
 
 @media (min-width: 64em) {
 
-  /* Keep original flex behavior */
   .greedy-nav {
     display: flex;
     align-items: center;
+    width: 100%;
   }
 
-  /* Keep site title on left */
-  .greedy-nav .site-title {
-    margin-right: auto;
-    white-space: nowrap;
-  }
-
-  /* Center menu items */
+  /* Keep menu centered */
   .greedy-nav .visible-links {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    margin: 0 auto;
   }
 
+  /* Keep right-side toggle/icon aligned */
+  .greedy-nav .greedy-nav__toggle,
+  .greedy-nav .search__toggle,
+  .greedy-nav .theme-toggle {
+    margin-left: auto;
+  }
 }
