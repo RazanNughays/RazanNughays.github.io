@@ -38,44 +38,41 @@ In functional materials, energy flow is controlled by surface structure (crystal
 
 ---
 
-<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
+<h2>Orientation and Termination Effects on Charge Carrier Dynamics</h2>
+
+<div style="display:flex; align-items:center; gap:40px; margin:40px 0;">
 
 <div style="flex:1;">
 
-<h3>Orientation and Termination Effects on Charge Carrier Dynamics</h3>
-
 <h3>Perovskites for Solar and Sensing Applications</h3>
 
-My research investigates how crystallographic orientation, surface termination, and defect landscapes regulate carrier transport in functional semiconductors. Across halide perovskites and radiation-detection materials, I examine how structural anisotropy and interfacial fields reshape diffusion, trapping, and recombination pathways. These studies establish nanoscale structure and symmetry as key determinants of macroscopic device performance.
+<p>
+Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination.
+</p>
 
 </div>
 
 <div style="flex:1; text-align:center;">
 
 <video autoplay loop muted playsinline
-       style="max-width:300px; width:100%; border-radius:8px;">
-
-  <source src="/images/dif.mp4" type="video/mp4">
-
+style="max-width:300px; width:100%; border-radius:8px;">
+<source src="/images/dif.mp4" type="video/mp4">
 </video>
 
 </div>
 
-</div>   
+</div>
 
 
-<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
 
-<div style="flex:1;">
-
-<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
+<div style="display:flex; align-items:center; gap:40px; margin:40px 0;">
 
 <div style="flex:1;">
 
 <h3>CdTe for X-ray Detectors</h3>
 
 <p>
-Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations. These results demonstrate that crystallographic orientation strongly governs carrier transport and highlight orientation engineering as a key strategy for improving high-energy X-ray detectors.
+Photoinduced carrier dynamics in CdTe single crystals reveal strong orientation-dependent detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations.
 </p>
 
 </div>
@@ -83,56 +80,63 @@ Photoinduced carrier dynamics in CdTe single crystals were investigated to under
 <div style="flex:1; text-align:center;">
 
 <img src="/images/Xray.png"
-     alt="Orientation-dependent X-ray detector performance in CdTe"
-     style="max-width:300px; width:100%; height:auto; border-radius:8px;">
+alt="Orientation-dependent X-ray detector performance in CdTe"
+style="max-width:300px; width:100%; height:auto; border-radius:8px;">
 
 </div>
 
 </div>
 
----
-<h3>Composition-Dependent Carrier Dynamics</h3>
 
-Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskite, FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
+
+<h2>Composition-Dependent Carrier Dynamics</h2>
+
+<div style="display:flex; align-items:center; gap:40px; margin:40px 0;">
+
+<div style="flex:1;">
+
+<h3>Mixed-Cation Perovskites</h3>
+
+<p>
+Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers.
+</p>
 
 </div>
 
 <div style="flex:1; text-align:center;">
 
 <video autoplay loop muted playsinline
-       style="max-width:330px; width:100%; border-radius:8px;">
-
-  <source src="/images/mig.mp4" type="video/mp4">
-
+style="max-width:330px; width:100%; border-radius:8px;">
+<source src="/images/mig.mp4" type="video/mp4">
 </video>
 
 </div>
 
 </div>
 
-<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
-
-  <div style="flex:1;">
 
 
+<div style="display:flex; align-items:center; gap:40px; margin:40px 0;">
 
-    <p>
-      Surface carrier dynamics in Te–Se nanocomposites were investigated. The results reveal strong composition-dependent surface behavior: TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination. These findings demonstrate that compositional interface engineering can effectively control surface carrier lifetimes in Te–Se optoelectronic materials.
-    </p>
+<div style="flex:1;">
 
-  </div>
+<h3>Te–Se Nanocomposites</h3>
 
-  <div style="flex:1; text-align:center;">
-
-    <img src="/images/TeSe.png"
-         alt="Interface and structure control energy flow"
-         style="max-width:300px; width:100%; height:auto; border-radius:8px;">
-
-  </div>
+<p>
+Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dependent surface behavior. TeSe (1:0.5) exhibits long-lived carrier diffusion, while TeSe (1:1) shows localized carriers and faster recombination.
+</p>
 
 </div>
 
+<div style="flex:1; text-align:center;">
 
+<img src="/images/TeSe.png"
+alt="Composition-dependent surface dynamics in Te–Se nanocomposites"
+style="max-width:300px; width:100%; height:auto; border-radius:8px;">
+
+</div>
+
+</div>
 ---
 
 ### Instrumentation Development
