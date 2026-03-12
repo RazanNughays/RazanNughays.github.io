@@ -26,12 +26,6 @@ Why do materials that appear similar often exhibit dramatically different perfor
 
 
 
-<video autoplay loop muted playsinline
-       style="max-width:330px; width:100%; border-radius:8px;">
-
-  <source src="/images/mig.mp4" type="video/mp4">
-
-</video>
 
 <p style="font-size:0.9em; margin-top:10px;">
 Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
@@ -60,6 +54,28 @@ My research investigates how crystallographic orientation, surface termination, 
        style="max-width:300px; width:100%; border-radius:8px;">
 
   <source src="/images/dif.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+
+<div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
+
+<div style="flex:1;">
+
+<h3>Composition-Dependent Carrier Dynamics</h3>
+
+I investigate how compositional engineering modifies carrier transport and recombination in mixed-cation perovskites. By tuning the chemical composition, the local electronic structure, defect landscape, and internal fields can be altered, which directly impacts carrier diffusion, trapping, and recombination pathways. These studies demonstrate how compositional control can be used to tailor carrier dynamics and optimize the performance of optoelectronic devices.
+
+</div>
+
+<div style="flex:1; text-align:center;">
+
+<video autoplay loop muted playsinline
+       style="max-width:330px; width:100%; border-radius:8px;">
+
+  <source src="/images/mig.mp4" type="video/mp4">
 
 </video>
 
