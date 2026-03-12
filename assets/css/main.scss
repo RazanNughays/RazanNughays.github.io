@@ -127,59 +127,36 @@
     margin-left: auto;
   }
 }
-/* ===== Make content truly full width ===== */
+/* ===== Force true wide layout for research/single pages ===== */
 
-.page {
+.layout--single.wide #main {
+  max-width: 1800px !important;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.layout--single.wide .page {
+  width: 100% !important;
   max-width: none !important;
 }
 
-.page__inner-wrap {
-  max-width: 1600px !important;
-}
-
-.page__content {
-  max-width: 1500px !important;
-}
-
-@media (min-width: 64em) {
-
-  .sidebar {
-    width: 220px !important;
-  }
-
-  .page {
-    width: calc(100% - 260px) !important;
-  }
-
-  .page__content {
-    max-width: 1500px !important;
-  }
-
-}
-/* ===== Extra width for wide pages ===== */
-.page {
-  max-width: none !important;
-}
-
-.page__inner-wrap {
+.layout--single.wide .page__inner-wrap {
+  width: 100% !important;
   max-width: 1700px !important;
 }
 
-.page__content {
-  max-width: 1600px !important;
+.layout--single.wide .page__content {
   width: 100% !important;
+  max-width: 1600px !important;
+}
+
+.layout--single.wide .page__content > * {
+  max-width: 100% !important;
 }
 
 @media (min-width: 64em) {
-  .sidebar {
-    width: 220px !important;
-  }
-
-  .page {
-    width: calc(100% - 260px) !important;
-  }
-
-  .page__content {
-    max-width: 1600px !important;
+  .layout--single.wide .page {
+    float: none !important;
+    width: 100% !important;
   }
 }
