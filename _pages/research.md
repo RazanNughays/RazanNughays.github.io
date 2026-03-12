@@ -81,7 +81,6 @@ I investigate how compositional engineering modifies carrier transport and recom
 
 </div>
 
-</div>
 
 ---
 
