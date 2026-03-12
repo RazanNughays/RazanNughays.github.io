@@ -156,3 +156,30 @@
   }
 
 }
+/* ===== Extra width for wide pages ===== */
+.page {
+  max-width: none !important;
+}
+
+.page__inner-wrap {
+  max-width: 1700px !important;
+}
+
+.page__content {
+  max-width: 1600px !important;
+  width: 100% !important;
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    width: 220px !important;
+  }
+
+  .page {
+    width: calc(100% - 260px) !important;
+  }
+
+  .page__content {
+    max-width: 1600px !important;
+  }
+}
