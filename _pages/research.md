@@ -59,6 +59,8 @@ My research investigates how crystallographic orientation, surface termination, 
 
 </div>
 
+</div>   <!-- THIS WAS MISSING -->
+
 
 <div style="display:flex; align-items:center; gap:40px; margin:50px 0;">
 
@@ -66,7 +68,7 @@ My research investigates how crystallographic orientation, surface termination, 
 
 <h3>Composition-Dependent Carrier Dynamics</h3>
 
-I investigate how compositional engineering modifies carrier transport and recombination in mixed-cation perovskites. By tuning the chemical composition, the local electronic structure, defect landscape, and internal fields can be altered, which directly impacts carrier diffusion, trapping, and recombination pathways. These studies demonstrate how compositional control can be used to tailor carrier dynamics and optimize the performance of optoelectronic devices.
+Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskite single crystals, FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
 
 </div>
 
@@ -81,6 +83,7 @@ I investigate how compositional engineering modifies carrier transport and recom
 
 </div>
 
+</div>
 
 ---
 
