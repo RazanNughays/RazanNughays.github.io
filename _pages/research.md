@@ -66,6 +66,7 @@ My research investigates how crystallographic orientation, surface termination, 
 
 <div style="flex:1;">
 
+---
 <h3>Composition-Dependent Carrier Dynamics</h3>
 
 Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskite single crystals, FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal composition-dependent carrier lifetimes governed by surface defects and ion migration. Higher FA content promotes iodide migration that passivates surface vacancies, leading to fewer defects and longer-lived charge carriers. These results highlight how compositional engineering and ion migration regulate surface carrier dynamics and provide a pathway to optimize perovskite optoelectronic devices.
@@ -84,6 +85,8 @@ Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we inve
 </div>
 
 </div>
+
+
 
 ---
 
