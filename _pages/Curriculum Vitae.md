@@ -18,8 +18,7 @@ redirect_from:
 ## Research Experience
 - **MIT** Ultrafast Lasers Microscopy, Present
 - **KAUST**: Ultrafast Scanning Electron Microscopy (U-SEM), 2020-2025
-- **University of California Santa Barbra**, Tracking thermal effects on backscattered electron diffraction (BSED) pattern in silicon using
-modified direct detector in SEM, 2024
+- **University of California Santa Barbra**, Tracking thermal effects on backscattered electron diffraction (BSED), 2024
 - **KAUST**: Synthesis MXene for a self-healing material, 2019
 - **KAUST**: Transfer graphene efficiently to suitable substrates, 2018
 
