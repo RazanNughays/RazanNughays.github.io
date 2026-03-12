@@ -6,30 +6,33 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1700px;
   }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    float: none;
   }
 
   .page__inner-wrap {
     @include full();
+    max-width: 100%;
 
     .page__content,
     .page__meta,
     .page__share {
       @include full();
+      max-width: 100%;
     }
   }
 }
@@ -134,7 +137,7 @@
       padding-right: 1em;
 
       @include breakpoint($x-large) {
-        max-width: $x-large;
+        max-width: 1700px;
       }
     }
 
