@@ -6,34 +6,30 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1em;
+  padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1700px;
+    max-width: $x-large;
   }
 }
 
 .page {
-  width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
+  @include breakpoint($large) {
+    @include span(10 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
+  }
 
   .page__inner-wrap {
     @include full();
-    max-width: 100%;
 
     .page__content,
     .page__meta,
     .page__share {
       @include full();
-      max-width: 100%;
     }
   }
 }
@@ -138,7 +134,7 @@
       padding-right: 1em;
 
       @include breakpoint($x-large) {
-        max-width: 1700px;
+        max-width: $x-large;
       }
     }
 
@@ -224,7 +220,6 @@
   text-transform: uppercase;
 }
 
-
 /*
    Page meta
    ========================================================================== */
@@ -249,7 +244,6 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
 
 /*
    Page taxonomy
@@ -279,7 +273,6 @@
     color: var(--global-link-color-hover);
   }
 }
-
 
 /*
    Comments
@@ -375,7 +368,6 @@
     text-decoration: none;
   }
 }
-
 
 /*
    Related
