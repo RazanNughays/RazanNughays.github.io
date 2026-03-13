@@ -9,10 +9,18 @@ redirect_from:
 
 <style>
   .cv-wrap {
-    width: calc(100vw - 4rem);
-    max-width: 1500px;
-    margin-left: calc(50% - 50vw + 2rem);
-    margin-right: calc(50% - 50vw + 2rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .archive__subtitle,
+  .page__title {
+    max-width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: left !important;
+    width: 100%;
   }
 
   .cv-wrap h2 {
@@ -24,10 +32,10 @@ redirect_from:
   }
 
   @media (max-width: 900px) {
-    .cv-wrap {
-      width: calc(100vw - 2rem);
-      margin-left: calc(50% - 50vw + 1rem);
-      margin-right: calc(50% - 50vw + 1rem);
+    .cv-wrap,
+    .archive__subtitle,
+    .page__title {
+      max-width: 100%;
     }
   }
 </style>
