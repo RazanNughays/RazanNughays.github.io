@@ -5,32 +5,70 @@ permalink: /publications/
 author_profile: false
 ---
 
+<style>
+  .pub-wrap {
+    width: calc(100vw - 4rem);
+    max-width: 1500px;
+    margin-left: calc(50% - 50vw + 2rem);
+    margin-right: calc(50% - 50vw + 2rem);
+  }
+
+  .pub-wrap h2 {
+    margin-top: 2.2rem;
+  }
+
+  @media (max-width: 900px) {
+    .pub-wrap {
+      width: calc(100vw - 2rem);
+      margin-left: calc(50% - 50vw + 1rem);
+      margin-right: calc(50% - 50vw + 1rem);
+    }
+  }
+</style>
+
+<div class="pub-wrap">
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">
+You can also find my articles on
+<a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+
+{% for category in site.publication_category %}
+
+{% assign title_shown = false %}
+
+{% for post in site.publications reversed %}
+
+{% if post.category != category[0] %}
+{% continue %}
 {% endif %}
 
+{% unless title_shown %}
+<h2>{{ category[1].title }}</h2>
+<hr>
+{% assign title_shown = true %}
+{% endunless %}
 
+{% include archive-single.html %}
 
+{% endfor %}
+
+{% endfor %}
+
+{% else %}
+
+{% for post in site.publications reversed %}
+
+{% include archive-single.html %}
+
+{% endfor %}
+
+{% endif %}
+
+</div>
