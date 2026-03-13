@@ -47,8 +47,8 @@ author_profile: false
   }
 
   .research-intro-img {
-    width: 100%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 0 auto;
