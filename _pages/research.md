@@ -7,9 +7,9 @@ author_profile: false
 
 <style>
   .research-wrap {
-    max-width: 1200px;
-    margin: 0 auto;
     width: 100%;
+    max-width: none;
+    margin: 0;
   }
 
   .research-center {
@@ -47,16 +47,16 @@ author_profile: false
   }
 
   .research-intro-img {
-    width: 95%;
-    max-width: 820px;
+    width: 100%;
+    max-width: 1000px;
     height: auto;
     display: block;
     margin: 0 auto;
   }
 
   .research-bottom-img {
-    width: 95%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 520px;
     height: auto;
     display: block;
     margin: 0 auto;
