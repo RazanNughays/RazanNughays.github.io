@@ -46,7 +46,6 @@
    Custom Style Overrides
    ========================= */
 
-/* Avatar: slightly rounded square */
 .author__avatar img {
   border-radius: 8px !important;
 }
@@ -99,15 +98,27 @@
 
 
 /* =========================
-   FIX: Archive titles alignment
-   (CV + Publications)
+   FIX PAGE TITLES
+   About / Research / Gallery / CV / Publications
    ========================= */
 
-.archive__subtitle,
-.page__title,
-.archive .page__title {
+#main .page__title,
+#main h1.page__title,
+#main .archive__subtitle,
+#main .archive .page__title,
+#main .archive .archive__subtitle {
   text-align: left !important;
   margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.archive,
+.page,
+.page__inner-wrap,
+.page__content {
+  text-align: left;
 }
 
 
