@@ -52,11 +52,12 @@
 
 
 /* =========================
-   Balanced Site Width
+   Global wide layout
+   Applies to pages WITHOUT author profile/sidebar
    ========================= */
 
 #main {
-  max-width: 1350px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
@@ -77,29 +78,24 @@
 
 
 /* =========================
-   Sidebar + Content Balance
+   Wide pages by default
    ========================= */
 
 @media (min-width: 64em) {
 
-  .sidebar {
-    width: 260px;
-  }
-
   .page {
-    float: right;
-    width: calc(100% - 300px);
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
 }
 
 
 /* =========================
-   FIX PAGE TITLES
-   About / Research / Gallery / CV / Publications
+   Fix page titles
    ========================= */
 
 #main .page__title,
@@ -134,7 +130,7 @@
 
 
 /* =========================
-   Navigation
+   Desktop navigation
    ========================= */
 
 @media (min-width: 64em) {
