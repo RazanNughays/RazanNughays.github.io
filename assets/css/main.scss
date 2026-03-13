@@ -53,7 +53,7 @@
 
 
 /* =========================
-   Wider site layout
+   Wider Site Layout
    ========================= */
 
 #main {
@@ -64,59 +64,21 @@
   padding-right: 2rem;
 }
 
-.archive,
-.page,
-.page__content,
-.page__inner-wrap {
-  width: 100%;
-}
-
-.archive__item,
-.archive__item-excerpt {
-  max-width: 100%;
-}
-
-
-/* =========================
-   Fix pages with author sidebar
-   ========================= */
-
 @media (min-width: 64em) {
-  .sidebar {
-    width: 240px;
-  }
-
   .page {
-    float: right;
-    width: calc(100% - 280px);
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .page__content,
-  .page__inner-wrap {
-    max-width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 
 /* =========================
-   Cleaner image / video behavior
-   ========================= */
-
-.page__content img,
-.page__content video {
-  max-width: 100%;
-  height: auto;
-}
-
-
-/* =========================
-   Desktop nav centering
+   Desktop Navigation Centering
    ========================= */
 
 @media (min-width: 64em) {
+
   .greedy-nav {
     display: flex;
     align-items: center;
@@ -134,23 +96,5 @@
     justify-content: center;
     gap: 1.5rem;
   }
-}
 
-
-/* =========================
-   Mobile layout safety
-   ========================= */
-
-@media (max-width: 900px) {
-  #main {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .archive,
-  .page,
-  .page__content,
-  .page__inner-wrap {
-    max-width: 100%;
-  }
 }
