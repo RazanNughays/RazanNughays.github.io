@@ -52,8 +52,7 @@
 
 
 /* =========================
-   Global wide layout
-   Applies to pages WITHOUT author profile/sidebar
+   Balanced Site Width
    ========================= */
 
 #main {
@@ -115,6 +114,23 @@
 .page__inner-wrap,
 .page__content {
   text-align: left;
+}
+
+
+/* =========================
+   Center whole site container
+   ========================= */
+
+.page {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__inner-wrap {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
