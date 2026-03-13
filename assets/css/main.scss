@@ -191,3 +191,37 @@
   }
 
 }
+/* =========================
+   Center the entire website
+   ========================= */
+
+#main {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fix sidebar layout */
+
+@media (min-width: 64em) {
+
+  .sidebar {
+    width: 260px;
+  }
+
+  .page {
+    float: right;
+    width: calc(100% - 260px);
+  }
+
+}
+
+/* Ensure content fills space */
+
+.page__inner-wrap {
+  width: 100%;
+}
+
+.page__content {
+  width: 100%;
+}
