@@ -53,46 +53,50 @@
 
 
 /* =========================
-   Wider site layout for ALL pages
+   Wider site layout
    ========================= */
 
 #main {
-  max-width: 1700px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .archive,
 .page,
 .page__content,
 .page__inner-wrap {
-  width: 100% !important;
-  max-width: 1600px !important;
+  width: 100%;
 }
 
 .archive__item,
 .archive__item-excerpt {
-  max-width: 100% !important;
+  max-width: 100%;
 }
+
+
+/* =========================
+   Fix pages with author sidebar
+   ========================= */
 
 @media (min-width: 64em) {
   .sidebar {
-    width: 220px !important;
+    width: 240px;
   }
 
   .page {
-    width: calc(100% - 260px) !important;
-    max-width: none !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    float: right;
+    width: calc(100% - 280px);
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .archive,
   .page__content,
   .page__inner-wrap {
-    max-width: 1600px !important;
+    max-width: 100%;
   }
 }
 
@@ -125,16 +129,10 @@
   }
 
   .greedy-nav .visible-links {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin: 0 auto;
-  }
-
-  .greedy-nav .greedy-nav__toggle,
-  .greedy-nav .search__toggle,
-  .greedy-nav .theme-toggle {
-    margin-left: auto;
   }
 }
 
@@ -145,14 +143,14 @@
 
 @media (max-width: 900px) {
   #main {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .archive,
   .page,
   .page__content,
   .page__inner-wrap {
-    max-width: 100% !important;
+    max-width: 100%;
   }
 }
