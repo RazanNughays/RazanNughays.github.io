@@ -7,45 +7,88 @@ redirect_from:
   - /resume
 ---
 
-## Education
-- **Ph.D., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia, 2025. 
-- **M.Sc., Materials Science and Engineering**, KAUST, Thuwal, Saudi Arabia, 2020.  
-- **B.Sc., General Physics**, King Abdulaziz University (KAU), Jeddah, Saudi Arabia, 2017. 
+<style>
+  .cv-wrap {
+    width: calc(100vw - 4rem);
+    max-width: 1500px;
+    margin-left: calc(50% - 50vw + 2rem);
+    margin-right: calc(50% - 50vw + 2rem);
+  }
 
-## Current Postion
-- **Postdoctoral Researcher, Chemical Engineering**, MIT, United States
-  
-## Research Experience
-- **MIT** Ultrafast Lasers Microscopy, Present
-- **KAUST**: Ultrafast Scanning Electron Microscopy (U-SEM), 2020-2025
-- **University of California Santa Barbra**, Tracking thermal effects on backscattered electron diffraction (BSED), 2024
-- **KAUST**: Synthesis MXene for a self-healing material, 2019
-- **KAUST**: Transfer graphene efficiently to suitable substrates, 2018
+  .cv-wrap h2 {
+    margin-top: 2.2rem;
+  }
 
-## Mentoring and Teaching Experince 
-- 2025: Mentored two students from KAUST Academy in a research-based summer internship. That included: running experiments, data interpretation, literature readings and scientific communication.
-- 2025: Teaching Assistant for Materials Characterization course.
-- 2025: Mentored a Ph.D. student on U-SEM.
-- 2022: Mentored a Ph.D. student on U-SEM,
+  .cv-wrap ul {
+    margin-bottom: 1.2rem;
+  }
 
-## Selected Publications
+  @media (max-width: 900px) {
+    .cv-wrap {
+      width: calc(100vw - 2rem);
+      margin-left: calc(50% - 50vw + 1rem);
+      margin-right: calc(50% - 50vw + 1rem);
+    }
+  }
+</style>
+
+<div class="cv-wrap">
+
+<h2>Education</h2>
+<ul>
+  <li><strong>Ph.D., Materials Science and Engineering</strong>, KAUST, Thuwal, Saudi Arabia, 2025.</li>
+  <li><strong>M.Sc., Materials Science and Engineering</strong>, KAUST, Thuwal, Saudi Arabia, 2020.</li>
+  <li><strong>B.Sc., General Physics</strong>, King Abdulaziz University (KAU), Jeddah, Saudi Arabia, 2017.</li>
+</ul>
+
+<h2>Current Position</h2>
+<ul>
+  <li><strong>Postdoctoral Researcher, Chemical Engineering</strong>, MIT, United States.</li>
+</ul>
+
+<h2>Research Experience</h2>
+<ul>
+  <li><strong>MIT</strong> — Ultrafast Laser Microscopy, Present.</li>
+  <li><strong>KAUST</strong> — Ultrafast Scanning Electron Microscopy (U-SEM), 2020–2025.</li>
+  <li><strong>University of California, Santa Barbara</strong> — Tracking thermal effects using backscattered electron diffraction (BSED), 2024.</li>
+  <li><strong>KAUST</strong> — Synthesis of MXene for a self-healing material, 2019.</li>
+  <li><strong>KAUST</strong> — Transfer of graphene to suitable substrates, 2018.</li>
+</ul>
+
+<h2>Mentoring and Teaching Experience</h2>
+<ul>
+  <li>2025: Mentored two students from KAUST Academy in a research-based summer internship, including experiments, data interpretation, literature reading, and scientific communication.</li>
+  <li>2025: Teaching Assistant for Materials Characterization course.</li>
+  <li>2025: Mentored a Ph.D. student on U-SEM.</li>
+  <li>2022: Mentored a Ph.D. student on U-SEM.</li>
+</ul>
+
+<h2>Selected Publications</h2>
 <ul>
 {% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}
 </ul>
 
-## Conference Participation (selected)
-- **MRS Fall Meeting**, Boston, USA — Oral presentation (Dec 2024). 
-- **IMC20**, Busan, South Korea — Poster presentation (Sep 2023). 
-- **SPIE Conference**, San Francisco, USA — Poster presentation (Jan 2023). 
+<h2>Conference Participation (selected)</h2>
+<ul>
+  <li><strong>MRS Fall Meeting</strong>, Boston, USA — Oral presentation (Dec 2024).</li>
+  <li><strong>IMC20</strong>, Busan, South Korea — Poster presentation (Sep 2023).</li>
+  <li><strong>SPIE Conference</strong>, San Francisco, USA — Poster presentation (Jan 2023).</li>
+</ul>
 
-## Awards
-- **Ibn Khaldun Postdoctoral Fellowship** (2025). 
-- **KAUST Dean’s Award** (2023–2024). 
-- **IMC20 Best Poster Presentation Award** (2023). 
+<h2>Awards</h2>
+<ul>
+  <li><strong>Ibn Khaldun Postdoctoral Fellowship</strong> (2025).</li>
+  <li><strong>KAUST Dean’s Award</strong> (2023–2024).</li>
+  <li><strong>IMC20 Best Poster Presentation Award</strong> (2023).</li>
+</ul>
 
-## Technical Skills
-- Programming: Python, MATLAB, LaTeX 
-- Data analysis: Origin, MS Excel 
-- Laboratory: Femtosecond fiber laser maintenance, optical alignment 
+<h2>Technical Skills</h2>
+<ul>
+  <li><strong>Programming:</strong> Python, MATLAB, LaTeX.</li>
+  <li><strong>Data analysis:</strong> Origin, MS Excel.</li>
+  <li><strong>Laboratory:</strong> Femtosecond fiber laser maintenance, optical alignment.</li>
+</ul>
+
+</div>
