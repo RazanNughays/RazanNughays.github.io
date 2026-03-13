@@ -53,7 +53,7 @@
 
 
 /* =========================
-   Wider Site Layout
+   Balanced Site Width
    ========================= */
 
 #main {
@@ -64,17 +64,66 @@
   padding-right: 2rem;
 }
 
-@media (min-width: 64em) {
-  .page {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.archive,
+.page,
+.page__content,
+.page__inner-wrap {
+  width: 100%;
+}
+
+.archive__item,
+.archive__item-excerpt {
+  max-width: 100%;
 }
 
 
 /* =========================
-   Desktop Navigation Centering
+   Sidebar + Content Balance
+   ========================= */
+
+@media (min-width: 64em) {
+
+  .sidebar {
+    width: 260px;
+  }
+
+  .page {
+    float: right;
+    width: calc(100% - 300px);
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+
+/* =========================
+   FIX: Archive titles alignment
+   (CV + Publications)
+   ========================= */
+
+.archive__subtitle,
+.page__title,
+.archive .page__title {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+
+
+/* =========================
+   Media scaling
+   ========================= */
+
+.page__content img,
+.page__content video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* =========================
+   Navigation
    ========================= */
 
 @media (min-width: 64em) {
@@ -95,6 +144,27 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+  }
+
+}
+
+
+/* =========================
+   Mobile safety
+   ========================= */
+
+@media (max-width: 900px) {
+
+  #main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .archive,
+  .page,
+  .page__content,
+  .page__inner-wrap {
+    max-width: 100%;
   }
 
 }
