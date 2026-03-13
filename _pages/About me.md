@@ -9,10 +9,16 @@ author_profile: true
   @media (min-width: 64em) {
     .page {
       float: right;
-      width: calc(100% - 290px);
+      width: calc(100% - 300px);
       max-width: none;
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .page__inner-wrap {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .page__content {
