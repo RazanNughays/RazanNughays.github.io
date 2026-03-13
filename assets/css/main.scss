@@ -1,4 +1,78 @@
 ---
 ---
 
-@import "minimal-mistakes";
+/*
+ * This file controls what is imported from /_sass
+ *
+ * The first two lines are required by Jekyll.
+ */
+
+@import
+  "vendor/breakpoint/breakpoint",
+
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+  "include/mixins",
+  "vendor/susy/susy",
+
+  "layout/reset",
+  "layout/base",
+
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
+
+  "layout/forms",
+
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
+
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
+;
+
+
+/* =========================
+   Custom Style Overrides
+   ========================= */
+
+/* Avatar: slightly rounded square */
+.author__avatar img {
+  border-radius: 8px !important;
+}
+
+
+/* =========================
+   DESKTOP ONLY NAV CENTERING
+   ========================= */
+
+@media (min-width: 64em) {
+
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .greedy-nav .site-title {
+    margin-right: auto;
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+}
