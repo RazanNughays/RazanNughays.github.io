@@ -6,257 +6,180 @@ author_profile: false
 ---
 
 <style>
-  .gallery-wrap {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-  }
 
-  .gallery-center {
-    text-align: center;
-  }
+.gallery-wrap{
+width:100%;
+max-width:1350px;
+margin:0 auto;
+}
 
-  .gallery-row {
-    display: flex;
-    gap: 70px;
-    align-items: flex-start;
-    margin: 60px 0;
-    width: 100%;
-  }
+.gallery-row{
+display:flex;
+gap:60px;
+align-items:flex-start;
+margin:70px 0;
+}
 
-  .gallery-text {
-    flex: 1.6;
-    text-align: left;
-    min-width: 0;
-  }
+.gallery-text{
+flex:1.6;
+}
 
-  .gallery-media {
-    flex: 1;
-    text-align: center;
-    min-width: 0;
-  }
+.gallery-media{
+flex:1;
+}
 
-  .gallery-thumb {
-    border-radius: 8px;
-    cursor: zoom-in;
-    display: block;
-    height: auto;
-    width: 100%;
-    max-width: 520px;
-    margin: 0 auto;
-  }
+.gallery-thumb{
+width:100%;
+max-width:520px;
+height:auto;
+border-radius:8px;
+cursor:pointer;
+}
 
-  .gallery-thumb.medium {
-    max-width: 420px;
-  }
+.gallery-center{
+text-align:center;
+}
 
-  .gallery-thumb.poster {
-    max-width: 520px;
-  }
+@media(max-width:900px){
 
-  .lightbox {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.88);
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-  }
+.gallery-row{
+flex-direction:column;
+gap:30px;
+}
 
-  .lightbox.open {
-    display: flex;
-  }
+}
 
-  .lightbox img {
-    max-width: 92vw;
-    max-height: 88vh;
-    border-radius: 8px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
-  }
-
-  .lightbox-close {
-    position: absolute;
-    top: 18px;
-    right: 24px;
-    font-size: 34px;
-    line-height: 1;
-    color: white;
-    cursor: pointer;
-    user-select: none;
-  }
-
-  @media (max-width: 900px) {
-    .gallery-row {
-      flex-direction: column;
-      gap: 30px;
-      margin: 45px 0;
-    }
-
-    .gallery-text,
-    .gallery-media {
-      text-align: center;
-    }
-  }
 </style>
+
 
 <div class="gallery-wrap">
 
-  <h2 class="gallery-center" style="margin-bottom: 1rem;">
-    Women in Engineering Day — Saudi Engineering Council
-  </h2>
 
-  <div style="display:flex; justify-content:center;">
-    <blockquote class="twitter-tweet" data-media-max-width="560">
-      <p lang="ar" dir="rtl">
-        في رسالتها بمناسبة
-        <a href="https://twitter.com/hashtag/%D8%A7%D9%84%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A_%D9%84%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D8%A7%D8%AA?src=hash&amp;ref_src=twsrc%5Etfw">#اليوم_العالمي_للمهندسات</a>
-        ، تُعبّر المهندسة رزان عمر عن فخرها بالانتماء لهذا الوطن...
-        <a href="https://t.co/T7QlaBSIxT">pic.twitter.com/T7QlaBSIxT</a>
-      </p>
-      &mdash; الهيئة السعودية للمهندسين (@Eng_Council)
-      <a href="https://twitter.com/Eng_Council/status/1937217845169094707?ref_src=twsrc%5Etfw">June 23, 2025</a>
-    </blockquote>
-  </div>
+<h2 class="gallery-center">KAUST Graduation Ceremony</h2>
 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <p class="gallery-center" style="max-width:850px; margin:1.5rem auto 4rem auto; line-height:1.8;">
-    <em>Women in Engineering Day — Saudi Engineering Council (2025).</em><br>
-    Featured in a video released by the <strong>Saudi Engineering Council</strong> recognizing the contributions of Saudi women engineers and highlighting the growing role of women in advancing engineering and scientific research in the Kingdom.
-  </p>
+<div class="gallery-row">
 
-  <hr style="margin:60px 0;">
+<div class="gallery-text">
 
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>KAUST Graduation Ceremony</h2>
-      <p>
-        <em>Ph.D. Graduation Ceremony — KAUST (2025).</em><br>
-        Celebrating the completion of my Ph.D. in Materials Science and Engineering and marking the conclusion of my doctoral journey at
-        <a href="https://www.kaust.edu.sa/en/" target="_blank" rel="noopener">KAUST</a>.
-      </p>
-    </div>
-
-    <div class="gallery-media">
-      <img src="/images/PhD.png"
-           alt="KAUST Graduation Ceremony"
-           class="gallery-thumb medium"
-           onclick="openLightbox(this.src)">
-    </div>
-  </div>
-
-  <hr style="margin:60px 0;">
-
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>Ph.D. Defense — KAUST</h2>
-      <p>
-        <em>Doctoral Dissertation Defense — King Abdullah University of Science and Technology (2025).</em><br>
-        Successfully defending my Ph.D. dissertation titled
-        <em>“Visualization of Surface Charge Carrier Dynamics in Semiconductors Using Ultrafast Scanning Electron Microscopy.”</em>
-        under the supervision of Professor Omar F. Mohammed.
-        You can find my dissertation
-        <a href="https://repository.kaust.edu.sa/items/b9df2788-e9b0-4811-b504-34ad321fbefa" target="_blank" rel="noopener">here</a>.
-      </p>
-    </div>
-
-    <div class="gallery-media">
-      <img src="/images/Oct.jpeg"
-           alt="PhD Defense at KAUST"
-           class="gallery-thumb medium"
-           onclick="openLightbox(this.src)">
-    </div>
-  </div>
-
-  <hr style="margin:60px 0;">
-
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>MRS Fall Meeting</h2>
-      <p>
-        <em>Oral Presentation — MRS Fall Meeting, Boston, USA (2024).</em><br>
-        Presented research on probing surface-specific charge-carrier dynamics in single-crystal perovskites using four-dimensional ultrafast scanning electron microscopy (4D-USEM).
-      </p>
-    </div>
-
-    <div class="gallery-media">
-      <img src="/images/MRS.png"
-           alt="MRS Fall Meeting Presentation"
-           class="gallery-thumb poster"
-           onclick="openLightbox(this.src)">
-    </div>
-  </div>
-
-  <hr style="margin:60px 0;">
-
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>IMC20 Poster Presentation</h2>
-      <p>
-        <em>Poster Presentation and Best Poster Award — The 20th International Microscopy Congress (IMC20), Busan, South Korea (2023).</em><br>
-        Presented research on real-space visualization of carrier dynamics in CdTe crystals using 4D ultrafast electron microscopy and its relevance for X-ray detector technologies. This work was recognized with the Best Poster Presentation Award.
-      </p>
-    </div>
-
-    <div class="gallery-media">
-      <img src="/images/IMC20.png"
-           alt="IMC20 Poster Presentation"
-           class="gallery-thumb poster"
-           onclick="openLightbox(this.src)">
-    </div>
-  </div>
-
-  <hr style="margin:60px 0;">
-
-  <div class="gallery-row">
-    <div class="gallery-text">
-      <h2>SPIE Photonics West Poster</h2>
-      <p>
-        <em>Poster Presentation — SPIE Photonics West, San Francisco, USA (2023).</em><br>
-        Presented research on the visualization of surface charge-carrier diffusion lengths in single-crystal perovskites using four-dimensional ultrafast scanning electron microscopy (4D-USEM).
-      </p>
-    </div>
-
-    <div class="gallery-media">
-      <img src="/images/SPIE.png"
-           alt="SPIE Photonics West Poster"
-           class="gallery-thumb poster"
-           onclick="openLightbox(this.src)">
-    </div>
-  </div>
+<p>
+Ph.D. Graduation Ceremony — KAUST (2025). Celebrating the completion of my doctoral journey in Materials Science and Engineering.
+</p>
 
 </div>
 
-<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-  <span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
-  <img id="lightbox-img" src="" alt="Expanded gallery image">
+<div class="gallery-media">
+
+<img src="/images/PhD.png" class="gallery-thumb">
+
 </div>
 
-<script>
-  function openLightbox(src) {
-    document.getElementById('lightbox-img').src = src;
-    document.getElementById('lightbox').classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
+</div>
 
-  function closeLightbox(event) {
-    if (
-      event.target.id === 'lightbox' ||
-      event.target.classList.contains('lightbox-close')
-    ) {
-      document.getElementById('lightbox').classList.remove('open');
-      document.getElementById('lightbox-img').src = '';
-      document.body.style.overflow = '';
-    }
-  }
 
-  document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') {
-      document.getElementById('lightbox').classList.remove('open');
-      document.getElementById('lightbox-img').src = '';
-      document.body.style.overflow = '';
-    }
-  });
-</script>
+
+<hr>
+
+
+
+<div class="gallery-row">
+
+<div class="gallery-text">
+
+<h2>PhD Defense</h2>
+
+<p>
+Doctoral Dissertation Defense — KAUST (2025).
+</p>
+
+</div>
+
+<div class="gallery-media">
+
+<img src="/images/Oct.jpeg" class="gallery-thumb">
+
+</div>
+
+</div>
+
+
+
+<hr>
+
+
+
+<div class="gallery-row">
+
+<div class="gallery-text">
+
+<h2>MRS Fall Meeting</h2>
+
+<p>
+Oral presentation at the Materials Research Society Fall Meeting, Boston.
+</p>
+
+</div>
+
+<div class="gallery-media">
+
+<img src="/images/MRS.png" class="gallery-thumb">
+
+</div>
+
+</div>
+
+
+
+<hr>
+
+
+
+<div class="gallery-row">
+
+<div class="gallery-text">
+
+<h2>IMC20 Poster</h2>
+
+<p>
+Poster presentation at the 20th International Microscopy Congress in Busan.
+</p>
+
+</div>
+
+<div class="gallery-media">
+
+<img src="/images/IMC20.png" class="gallery-thumb">
+
+</div>
+
+</div>
+
+
+
+<hr>
+
+
+
+<div class="gallery-row">
+
+<div class="gallery-text">
+
+<h2>SPIE Photonics West</h2>
+
+<p>
+Poster presentation at SPIE Photonics West, San Francisco.
+</p>
+
+</div>
+
+<div class="gallery-media">
+
+<img src="/images/SPIE.png" class="gallery-thumb">
+
+</div>
+
+</div>
+
+
+
+</div>
