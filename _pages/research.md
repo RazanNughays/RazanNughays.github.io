@@ -7,13 +7,13 @@ author_profile: false
 
 <style>
   .page__content {
-    max-width: 1220px;
+    max-width: 1320px;
     margin: 0 auto;
   }
 
   .page__title {
     text-align: left !important;
-    max-width: 1220px;
+    max-width: 1320px;
     margin: 0 auto 1.2rem auto;
   }
 
@@ -39,14 +39,6 @@ author_profile: false
     margin: 1rem 0 1.75rem 0;
   }
 
-  .research-intro-img {
-    width: 100%;
-    max-width: 980px;
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem auto;
-  }
-
   .research-caption {
     text-align: center;
     font-size: 0.95rem;
@@ -65,14 +57,14 @@ author_profile: false
 
   .research-row {
     display: flex;
-    gap: 64px;
+    gap: 72px;
     align-items: flex-start;
     margin: 3.5rem 0;
     width: 100%;
   }
 
   .research-text {
-    flex: 1.55;
+    flex: 1.65;
     min-width: 0;
   }
 
@@ -105,7 +97,7 @@ author_profile: false
   .research-media img,
   .research-media video {
     width: 100%;
-    max-width: 460px;
+    max-width: 500px;
     height: auto;
     border-radius: 10px;
     display: block;
@@ -114,7 +106,7 @@ author_profile: false
 
   .research-bottom-img {
     width: 100%;
-    max-width: 520px;
+    max-width: 560px;
     height: auto;
     display: block;
     margin: 0 auto 1rem auto;
@@ -177,14 +169,6 @@ author_profile: false
   <div class="research-question">
     Why do materials that appear similar often exhibit dramatically different performance?
   </div>
-
-  <img src="/images/interface-energy-flow.png"
-       alt="Interface and structure control energy flow"
-       class="research-intro-img">
-
-  <p class="research-caption">
-    Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
-  </p>
 
   <p class="research-lead">
     In functional materials, energy flow is controlled by surface structure (crystallographic orientation, termination, and composition), symmetry, and interfacial electronic properties. My research seeks to understand how these factors shape carrier dynamics and influence material performance, ultimately guiding the rational design of next-generation functional materials and devices.
