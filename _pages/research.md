@@ -103,24 +103,6 @@ author_profile: false
     margin: 0 auto;
   }
 
-  .research-bottom-img {
-    width: 70%;
-    max-width: 450px;
-    margin: 0 auto 1rem auto;
-  }
-
-  .research-subsection-title {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  .research-bottom-text {
-    font-size: 1.05rem;
-    line-height: 1.8;
-  }
-
   @media (max-width: 900px) {
     #main,
     .page,
@@ -144,144 +126,139 @@ author_profile: false
 
 <div class="research-wrap">
 
-  <h3>Focus Areas</h3>
-  <ul>
-    <li>Nonlinear Optical Microscopy and Spectroscopy</li>
-    <li>Ultrafast Charge-Carrier Dynamics</li>
-    <li>Light–Matter Interactions</li>
-    <li>Interfacial Energy Transport</li>
-  </ul>
+<h3>Focus Areas</h3>
 
-  <hr>
+<ul>
+<li>Nonlinear Optical Microscopy and Spectroscopy</li>
+<li>Ultrafast Charge-Carrier Dynamics</li>
+<li>Light–Matter Interactions</li>
+<li>Interfacial Energy Transport</li>
+</ul>
 
-  <p class="research-lead">My research is driven by a deep curiosity:</p>
+<hr>
 
-  <div class="research-question">
-    Why do materials that appear similar often exhibit dramatically different performance?
-  </div>
+<p class="research-lead">My research is driven by a deep curiosity:</p>
 
-  <p class="research-lead">
-    In functional materials, energy flow is controlled by surface structure (crystallographic orientation, termination, and composition), symmetry, and interfacial electronic properties. My research seeks to understand how these factors shape carrier dynamics and influence material performance, ultimately guiding the rational design of next-generation functional materials and devices.
-  </p>
+<div class="research-question">
+Why do materials that appear similar often exhibit dramatically different performance?
+</div>
 
-  <h2 class="research-section-title">
-    Orientation and Termination Effects on Charge Carrier Dynamics
-  </h2>
+<p class="research-lead">
+In functional materials, energy flow is controlled by surface structure (crystallographic orientation, termination, and composition), symmetry, and interfacial electronic properties. My research seeks to understand how these factors shape carrier dynamics and influence material performance, ultimately guiding the rational design of next-generation functional materials and devices.
+</p>
 
-  <div class="research-row">
-    <div class="research-text">
-      <div class="research-item-title">
-        Perovskites for Solar and Sensing Applications
-      </div>
+<h2 class="research-section-title">
+Orientation and Termination Effects on Charge Carrier Dynamics
+</h2>
 
-      <p>
-        Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination.
-      </p>
+<div class="research-row">
+<div class="research-text">
 
-      <p class="research-link">
-        <a href="https://doi.org/10.1002/adom.202300190" target="_blank" rel="noopener">
-          <strong>Read full paper →</strong>
-        </a>
-      </p>
-    </div>
+<div class="research-item-title">
+Perovskites for Solar and Sensing Applications
+</div>
 
-    <div class="research-media">
-      <video autoplay loop muted playsinline>
-        <source src="/images/dif.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
+<p>
+Using ultrafast scanning electron microscopy (USEM), we investigated how crystallographic orientation and surface termination govern charge-carrier dynamics in MAPbI₃ perovskite single crystals. The results reveal strong facet-dependent transport: the (001) surface supports long-range carrier diffusion, while the (100) facet introduces defect states that accelerate recombination.
+</p>
 
-  <div class="research-row">
-    <div class="research-text">
-      <div class="research-item-title">
-        CdTe X-ray Detectors
-      </div>
+<p class="research-link">
+<a href="https://doi.org/10.1002/adom.202300190" target="_blank" rel="noopener">
+<strong>Read full paper →</strong>
+</a>
+</p>
 
-      <p>
-        Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations.
-      </p>
+</div>
 
-      <p class="research-link">
-        <a href="https://doi.org/10.1016/j.xcrp.2023.101723" target="_blank" rel="noopener">
-          <strong>Read full paper →</strong>
-        </a>
-      </p>
-    </div>
+<div class="research-media">
 
-    <div class="research-media">
-      <img src="/images/Xray.png" alt="Orientation-dependent X-ray detector performance in CdTe">
-    </div>
-  </div>
+<video autoplay loop muted playsinline>
+<source src="/images/dif.mp4" type="video/mp4">
+</video>
 
-  <h2 class="research-section-title">
-    Composition-Dependent Carrier Dynamics
-  </h2>
+</div>
+</div>
 
-  <div class="research-row">
-    <div class="research-text">
-      <div class="research-item-title">
-        Mixed-Cation Perovskites
-      </div>
+<div class="research-row">
+<div class="research-text">
 
-      <p>
-        Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal that small compositional changes strongly influence carrier lifetime and diffusion at the surface. In FA-rich compositions, iodide migration can dynamically passivate surface vacancies, reducing non-radiative recombination and enabling longer-lived carriers. These results highlight how ion migration and surface chemistry together govern carrier dynamics in hybrid perovskites.
-      </p>
+<div class="research-item-title">
+CdTe X-ray Detectors
+</div>
 
-      <p class="research-link">
-        <a href="https://doi.org/10.1002/advs.202404468" target="_blank" rel="noopener">
-          <strong>Read full paper →</strong>
-        </a>
-      </p>
-    </div>
+<p>
+Photoinduced carrier dynamics in CdTe single crystals were investigated to understand the role of crystallographic orientation in X-ray detector performance. Devices fabricated from the (110) facet exhibit more than two orders of magnitude lower detection limits and significantly higher sensitivity compared to (100) and (111) orientations.
+</p>
 
-    <div class="research-media">
-      <video autoplay loop muted playsinline>
-        <source src="/images/mig.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
+<p class="research-link">
+<a href="https://doi.org/10.1016/j.xcrp.2023.101723" target="_blank" rel="noopener">
+<strong>Read full paper →</strong>
+</a>
+</p>
 
-  <div class="research-row">
-    <div class="research-text">
-      <div class="research-item-title">
-        Te-Se Nanocomposites
-      </div>
+</div>
 
-      <p>
-        We studied how composition influences surface carrier transport in Te-Se nanocomposites using ultrafast electron microscopy. The results reveal distinct dynamical regimes: TeSe (1:0.5) supports long-range carrier diffusion, whereas TeSe (1:1) exhibits strongly localized carriers and faster recombination. These differences originate from composition-dependent surface structure and defect landscapes, demonstrating how subtle changes in stoichiometry can dramatically alter carrier transport at the nanoscale.
-      </p>
+<div class="research-media">
+<img src="/images/Xray.png" alt="Orientation-dependent X-ray detector performance in CdTe">
+</div>
 
-      <p class="research-link">
-        <a href="https://doi.org/10.1021/acs.jpcc.5c07387" target="_blank" rel="noopener">
-          <strong>Read full paper →</strong>
-        </a>
-      </p>
-    </div>
+</div>
 
-    <div class="research-media">
-      <img src="/images/TeSe.png" alt="Composition-dependent surface dynamics in Te–Se nanocomposites">
-    </div>
-  </div>
+<h2 class="research-section-title">
+Composition-Dependent Carrier Dynamics
+</h2>
 
-  <h3 class="research-subsection-title">
-    Instrumentation Development
-  </h3>
+<div class="research-row">
+<div class="research-text">
 
-  <p class="research-bottom-text">
-    I am particularly interested in advancing ultrafast microscopy approaches including <strong>4D-USEM</strong> and <strong>time-resolved second harmonic generation (TR-SHG)</strong>.
-  </p>
+<div class="research-item-title">
+Mixed-Cation Perovskites
+</div>
 
-  <h3 class="research-subsection-title">
-    Foundations in Ultrafast Electron Microscopy
-  </h3>
+<p>
+Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal that small compositional changes strongly influence carrier lifetime and diffusion at the surface. In FA-rich compositions, iodide migration can dynamically passivate surface vacancies, reducing non-radiative recombination and enabling longer-lived carriers. These results highlight how ion migration and surface chemistry together govern carrier dynamics in hybrid perovskites.
+</p>
 
-  <p class="research-center">
-    <img src="/images/4D-USEM.png" class="research-bottom-img" alt="4D-USEM system">
-  </p>
+<p class="research-link">
+<a href="https://doi.org/10.1002/advs.202404468" target="_blank" rel="noopener">
+<strong>Read full paper →</strong>
+</a>
+</p>
 
-  <p class="research-bottom-text">
-    This direction builds on my doctoral research, where I employed and refined 4D-USEM to directly visualize charge-carrier dynamics in real space and real time.
-  </p>
+</div>
+
+<div class="research-media">
+
+<video autoplay loop muted playsinline>
+<source src="/images/mig.mp4" type="video/mp4">
+</video>
+
+</div>
+</div>
+
+<div class="research-row">
+<div class="research-text">
+
+<div class="research-item-title">
+Te-Se Nanocomposites
+</div>
+
+<p>
+We studied how composition influences surface carrier transport in Te-Se nanocomposites using ultrafast electron microscopy. The results reveal distinct dynamical regimes: TeSe (1:0.5) supports long-range carrier diffusion, whereas TeSe (1:1) exhibits strongly localized carriers and faster recombination. These differences originate from composition-dependent surface structure and defect landscapes, demonstrating how subtle changes in stoichiometry can dramatically alter carrier transport at the nanoscale.
+</p>
+
+<p class="research-link">
+<a href="https://doi.org/10.1021/acs.jpcc.5c07387" target="_blank" rel="noopener">
+<strong>Read full paper →</strong>
+</a>
+</p>
+
+</div>
+
+<div class="research-media">
+<img src="/images/TeSe.png" alt="Composition-dependent surface dynamics in Te–Se nanocomposites">
+</div>
+
+</div>
 
 </div>
