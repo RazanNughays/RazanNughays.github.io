@@ -8,7 +8,7 @@ author_profile: false
 <style>
   .research-breakout {
     width: calc(100vw - 4rem);
-    max-width: 1350px;
+    max-width: 1200px;
     margin-left: calc(50% - 50vw + 2rem);
     margin-right: calc(50% - 50vw + 2rem);
   }
