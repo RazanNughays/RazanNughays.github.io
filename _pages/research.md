@@ -8,7 +8,7 @@ author_profile: false
 <style>
   .research-wrap {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
   }
 
