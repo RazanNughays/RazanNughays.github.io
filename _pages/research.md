@@ -9,8 +9,8 @@ author_profile: false
   .research-breakout {
     width: calc(100vw - 4rem);
     max-width: 1200px;
-    margin-left: calc(50% - 50vw + 2rem);
-    margin-right: calc(50% - 50vw + 2rem);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .research-wrap {
