@@ -6,10 +6,15 @@ author_profile: false
 ---
 
 <style>
+  .gallery-breakout {
+    width: calc(100vw - 4rem);
+    max-width: 1350px;
+    margin-left: calc(50% - 50vw + 2rem);
+    margin-right: calc(50% - 50vw + 2rem);
+  }
+
   .gallery-wrap {
     width: 100%;
-    max-width: none;
-    margin: 0;
   }
 
   .gallery-center {
@@ -94,6 +99,12 @@ author_profile: false
   }
 
   @media (max-width: 900px) {
+    .gallery-breakout {
+      width: calc(100vw - 2rem);
+      margin-left: calc(50% - 50vw + 1rem);
+      margin-right: calc(50% - 50vw + 1rem);
+    }
+
     .gallery-row {
       flex-direction: column;
       gap: 30px;
@@ -107,6 +118,7 @@ author_profile: false
   }
 </style>
 
+<div class="gallery-breakout">
 <div class="gallery-wrap">
 
   <h2 class="gallery-center" style="margin-bottom: 1rem;">
@@ -233,6 +245,7 @@ author_profile: false
     </div>
   </div>
 
+</div>
 </div>
 
 <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
