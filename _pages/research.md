@@ -104,17 +104,6 @@ author_profile: false
     Why do materials that appear similar often exhibit dramatically different performance?
   </p>
 
-  <p class="research-center">
-    <img src="/images/interface-energy-flow.png"
-         alt="Interface and structure control energy flow"
-         class="research-intro-img">
-  </p>
-
-  <p class="research-center" style="font-size:0.9em; margin-top:10px;">
-    Visualization of photoexcited carrier generation and surface-sensitive detection in semiconductors using ultrafast excitation.
-  </p>
-
-  <p>
     In functional materials, energy flow is controlled by surface structure (crystallographic orientation, termination, and composition), symmetry, and interfacial electronic properties. My research seeks to understand how these factors shape carrier dynamics and influence material performance, ultimately guiding the rational design of next-generation functional materials and devices.
   </p>
 
