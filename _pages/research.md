@@ -6,15 +6,10 @@ author_profile: false
 ---
 
 <style>
-  .research-breakout {
-    width: calc(100vw - 4rem);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .research-wrap {
     width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
   .research-center {
@@ -23,28 +18,27 @@ author_profile: false
 
   .research-row {
     display: flex;
-    gap: 70px;
+    gap: 60px;
     align-items: flex-start;
     margin: 60px 0;
     width: 100%;
   }
 
   .research-text {
-    flex: 1.6;
-    text-align: left;
+    flex: 1.5;
     min-width: 0;
   }
 
   .research-media {
     flex: 1;
-    text-align: center;
     min-width: 0;
+    text-align: center;
   }
 
   .research-media img,
   .research-media video {
     width: 100%;
-    max-width: 520px;
+    max-width: 420px;
     height: auto;
     border-radius: 8px;
     display: block;
@@ -52,8 +46,8 @@ author_profile: false
   }
 
   .research-intro-img {
-    width: 70%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 900px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -61,19 +55,13 @@ author_profile: false
 
   .research-bottom-img {
     width: 100%;
-    max-width: 520px;
+    max-width: 480px;
     height: auto;
     display: block;
     margin: 0 auto;
   }
 
   @media (max-width: 900px) {
-    .research-breakout {
-      width: calc(100vw - 2rem);
-      margin-left: calc(50% - 50vw + 1rem);
-      margin-right: calc(50% - 50vw + 1rem);
-    }
-
     .research-row {
       flex-direction: column;
       gap: 30px;
@@ -92,7 +80,6 @@ author_profile: false
   }
 </style>
 
-<div class="research-breakout">
 <div class="research-wrap">
 
   <h3>Focus Areas</h3>
@@ -243,5 +230,4 @@ author_profile: false
     This direction builds on my doctoral research, where I employed and refined 4D-USEM to directly visualize charge-carrier dynamics in real space and real time.
   </p>
 
-</div>
 </div>
