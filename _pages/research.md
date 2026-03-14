@@ -7,9 +7,9 @@ author_profile: false
 
 <style>
   .research-wrap {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
+    width: min(calc(100vw - 6rem), 1250px);
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .research-center {
@@ -38,7 +38,7 @@ author_profile: false
   .research-media img,
   .research-media video {
     width: 100%;
-    max-width: 500px;
+    max-width: 460px;
     height: auto;
     border-radius: 8px;
     display: block;
@@ -47,7 +47,7 @@ author_profile: false
 
   .research-intro-img {
     width: 100%;
-    max-width: 900px;
+    max-width: 980px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -55,13 +55,19 @@ author_profile: false
 
   .research-bottom-img {
     width: 100%;
-    max-width: 480px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
   }
 
   @media (max-width: 900px) {
+    .research-wrap {
+      width: calc(100vw - 2rem);
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+
     .research-row {
       flex-direction: column;
       gap: 30px;
@@ -92,7 +98,7 @@ author_profile: false
 
   <hr>
 
-  <p>My research is driven by a question:</p>
+  <p>My research is driven by a deep curiosity:</p>
 
   <p class="research-center" style="font-size: 1.35em; font-weight: 500;">
     Why do materials that appear similar often exhibit dramatically different performance?
