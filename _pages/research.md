@@ -104,8 +104,8 @@ author_profile: false
   }
 
   .research-bottom-img {
-    width: 100%;
-    max-width: 700px;
+    width: 70%;
+    max-width: 450px;
     margin: 0 auto 1rem auto;
   }
 
@@ -225,7 +225,7 @@ author_profile: false
       </div>
 
       <p>
-        Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃.
+        Using four-dimensional ultrafast scanning electron microscopy (4D-USEM), we investigated surface carrier dynamics in mixed-cation perovskites FA₀.₆MA₀.₄PbI₃ and FA₀.₄MA₀.₆PbI₃. The measurements reveal that small compositional changes strongly influence carrier lifetime and diffusion at the surface. In FA-rich compositions, iodide migration can dynamically passivate surface vacancies, reducing non-radiative recombination and enabling longer-lived carriers. These results highlight how ion migration and surface chemistry together govern carrier dynamics in hybrid perovskites.
       </p>
 
       <p class="research-link">
@@ -245,11 +245,11 @@ author_profile: false
   <div class="research-row">
     <div class="research-text">
       <div class="research-item-title">
-        Te–Se Nanocomposites
+        Te-Se Nanocomposites
       </div>
 
       <p>
-        Surface carrier dynamics in Te–Se nanocomposites reveal strong composition-dependent surface behavior.
+        We studied how composition influences surface carrier transport in Te-Se nanocomposites using ultrafast electron microscopy. The results reveal distinct dynamical regimes: TeSe (1:0.5) supports long-range carrier diffusion, whereas TeSe (1:1) exhibits strongly localized carriers and faster recombination. These differences originate from composition-dependent surface structure and defect landscapes, demonstrating how subtle changes in stoichiometry can dramatically alter carrier transport at the nanoscale.
       </p>
 
       <p class="research-link">
