@@ -68,6 +68,7 @@ redirect_from:
   <li>2025: Mentored two students from KAUST Academy in a research-based summer internship, including experiments, data interpretation, literature reading, and scientific communication.</li>
   <li>2025: Teaching Assistant for Materials Characterization course.</li>
   <li>2025: Mentored a Ph.D. student on U-SEM.</li>
+  <li>2024: Teaching Assistant for Materials Characterization course.</li>
   <li>2022: Mentored a Ph.D. student on U-SEM.</li>
 </ul>
 
