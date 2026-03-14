@@ -7,9 +7,9 @@ author_profile: false
 
 <style>
   .gallery-wrap {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: min(calc(100vw - 6rem), 1250px);
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .gallery-center {
@@ -94,6 +94,12 @@ author_profile: false
   }
 
   @media (max-width: 900px) {
+    .gallery-wrap {
+      width: calc(100vw - 2rem);
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+
     .gallery-row {
       flex-direction: column;
       gap: 30px;
