@@ -38,7 +38,7 @@ author_profile: false
   .research-media img,
   .research-media video {
     width: 100%;
-    max-width: 420px;
+    max-width: 500px;
     height: auto;
     border-radius: 8px;
     display: block;
@@ -92,7 +92,7 @@ author_profile: false
 
   <hr>
 
-  <p>My research is driven by a deep curiosity:</p>
+  <p>My research is driven by a question:</p>
 
   <p class="research-center" style="font-size: 1.35em; font-weight: 500;">
     Why do materials that appear similar often exhibit dramatically different performance?
