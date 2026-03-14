@@ -7,13 +7,13 @@ author_profile: false
 
 <style>
   .page__content {
-    max-width: 1320px;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
   .page__title {
     text-align: left !important;
-    max-width: 1320px;
+    max-width: 1400px;
     margin: 0 auto 1.2rem auto;
   }
 
