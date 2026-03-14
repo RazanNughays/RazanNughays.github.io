@@ -46,7 +46,7 @@ author_profile: false
   }
 
   .research-intro-img {
-    width: 100%;
+    width: 80%;
     max-width: 650px;
     height: auto;
     display: block;
@@ -54,7 +54,7 @@ author_profile: false
   }
 
   .research-bottom-img {
-    width: 100%;
+    width: 80%;
     max-width: 500px;
     height: auto;
     display: block;
