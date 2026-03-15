@@ -137,7 +137,7 @@ author_profile: false
 
 <hr>
 
-<p class="research-lead">My research is driven by a deep curiosity:</p>
+<p class="research-lead">My research is driven by a question:</p>
 
 <div class="research-question">
 Why do materials that appear similar often exhibit dramatically different performance?
