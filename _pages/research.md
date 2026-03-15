@@ -18,7 +18,7 @@ author_profile: false
   }
 
   .page__content {
-    max-width: 1500px !important;
+    max-width: 1600px !important;
     margin: 0 auto !important;
   }
 
