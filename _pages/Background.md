@@ -107,11 +107,6 @@ redirect_from:
 
 <h2>Current Position</h2>
 
-<div class="cv-logo-row">
-  <div class="cv-logo">
-    <img src="/images/MIT.png" alt="MIT logo">
-  </div>
-  <div class="cv-logo-text">
     <strong>Massachusetts Institute of Technology (MIT)</strong><br>
     Postdoctoral Researcher, Chemical Engineering — Present
   </div>
