@@ -20,7 +20,7 @@ main:
   # - title: "CV"
   #   url: /cv-json/
 
-  - title: "Curriculum Vitae"
+  - title: "Background"
     url: /CV/
     
   - title: "Gallery"
