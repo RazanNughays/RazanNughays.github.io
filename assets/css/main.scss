@@ -1,12 +1,6 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * The first two lines are required by Jekyll.
- */
-
 @import
   "vendor/breakpoint/breakpoint",
 
@@ -77,7 +71,7 @@
 
 
 /* =========================
-   Wide pages by default
+   Wide pages
    ========================= */
 
 @media (min-width: 64em) {
@@ -103,9 +97,7 @@
 
 #main .page__title,
 #main h1.page__title,
-#main .archive__subtitle,
-#main .archive .page__title,
-#main .archive .archive__subtitle {
+#main .archive__subtitle {
   text-align: left !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -177,16 +169,21 @@
 
 
 /* =========================
-   Background page title signature only
+   🔥 SIGNATURE TITLE (GLOBAL)
    ========================= */
 
-body[data-page-title="Background"] .page__title::before,
-body.layout--archive .page__title::before {
+/* Remove graduation hat icon */
+.page__title i {
+  display: none !important;
+}
+
+/* Add signature before ALL page titles */
+.page__title::before {
   content: "";
   display: inline-block;
-  width: 72px;
+  width: 70px;
   height: 26px;
-  background-image: url("/assets/images/signature.png");
+  background-image: url("/images/signature.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
