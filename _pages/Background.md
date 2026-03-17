@@ -109,7 +109,7 @@ redirect_from:
 
     <strong>Massachusetts Institute of Technology (MIT)</strong><br>
     Postdoctoral Researcher, Chemical Engineering — Present
-  </div>
+ 
 </div>
 
 <h2>Research Experience</h2>
