@@ -1,10 +1,11 @@
 ---
 layout: archive
 title: "Background"
-permalink: /CV/
+permalink: /background/
 author_profile: false
 redirect_from:
   - /resume
+  - /CV/
 ---
 
 <style>
@@ -24,11 +25,50 @@ redirect_from:
   }
 
   .cv-wrap h2 {
-    margin-top: 2.2rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
   }
 
   .cv-wrap ul {
     margin-bottom: 1.2rem;
+  }
+
+  .cv-wrap li {
+    margin-bottom: 0.65rem;
+  }
+
+  .cv-logo-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1.4rem;
+  }
+
+  .cv-logo {
+    width: 120px;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cv-logo img {
+    max-width: 110px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  .cv-logo-text {
+    flex: 1;
+    min-width: 0;
+    line-height: 1.7;
+  }
+
+  .cv-logo-text strong {
+    font-size: 1.05rem;
   }
 
   @media (max-width: 900px) {
@@ -36,6 +76,22 @@ redirect_from:
     .archive__subtitle,
     .page__title {
       max-width: 100%;
+    }
+
+    .cv-logo-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .cv-logo {
+      width: auto;
+      min-width: 0;
+    }
+
+    .cv-logo img {
+      max-width: 120px;
+      max-height: 60px;
     }
   }
 </style>
@@ -50,18 +106,68 @@ redirect_from:
 </ul>
 
 <h2>Current Position</h2>
-<ul>
-  <li><strong>Postdoctoral Researcher, Chemical Engineering</strong>, MIT, United States.</li>
-</ul>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/MIT.png" alt="MIT logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>Massachusetts Institute of Technology (MIT)</strong><br>
+    Postdoctoral Researcher, Chemical Engineering — Present
+  </div>
+</div>
 
 <h2>Research Experience</h2>
-<ul>
-  <li><strong>MIT</strong> — Ultrafast Laser Microscopy, Present.</li>
-  <li><strong>KAUST</strong> — Ultrafast Scanning Electron Microscopy (U-SEM), 2020–2025.</li>
-  <li><strong>University of California, Santa Barbara</strong> — Tracking thermal effects using backscattered electron diffraction (BSED), 2024.</li>
-  <li><strong>KAUST</strong> — Synthesis of MXene for a self-healing material, 2019.</li>
-  <li><strong>KAUST</strong> — Transfer of graphene to suitable substrates, 2018.</li>
-</ul>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/MIT.png" alt="MIT logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>Massachusetts Institute of Technology (MIT)</strong><br>
+    Ultrafast laser spectroscopy and microscopy of semiconductor interfaces — Present
+  </div>
+</div>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/KAUST.webp" alt="KAUST logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>King Abdullah University of Science and Technology (KAUST)</strong><br>
+    Ultrafast Scanning Electron Microscopy (U-SEM), charge-carrier dynamics in semiconductors and energy materials — 2020–2025
+  </div>
+</div>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/UCSB.jpg" alt="UCSB logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>University of California, Santa Barbara (UCSB)</strong><br>
+    Tracking thermal effects using backscattered electron diffraction (BSED) — 2024
+  </div>
+</div>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/KAUST.webp" alt="KAUST logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>King Abdullah University of Science and Technology (KAUST)</strong><br>
+    Synthesis of MXene for a self-healing material — 2019
+  </div>
+</div>
+
+<div class="cv-logo-row">
+  <div class="cv-logo">
+    <img src="/images/KAUST.webp" alt="KAUST logo">
+  </div>
+  <div class="cv-logo-text">
+    <strong>King Abdullah University of Science and Technology (KAUST)</strong><br>
+    Transfer of graphene to suitable substrates — 2018
+  </div>
+</div>
 
 <h2>Mentoring and Teaching Experience</h2>
 <ul>
@@ -95,10 +201,9 @@ redirect_from:
 
 <h2>Skills</h2>
 <ul>
-
   <li><strong>Ultrafast Spectroscopy & Microscopy:</strong> 4D-USEM, pump–probe techniques.</li>
-  <li><strong>Optical Setups:</strong> Fiber laser, Ti:Sapphire system, Free-space optics, Hands-on alignment and optimization.</li>
-  <li><strong>Materials Characterization:</strong> Surface and interfacial carrier dynamics, Recombination pathways, Ion migration.</li>
+  <li><strong>Optical Setups:</strong> Fiber laser, Ti:Sapphire system, free-space optics, hands-on alignment and optimization.</li>
+  <li><strong>Materials Characterization:</strong> Surface and interfacial carrier dynamics, recombination pathways, ion migration.</li>
   <li><strong>Data Analysis:</strong> Quantitative analysis of time-resolved measurements using MATLAB and Python.</li>
 </ul>
 
