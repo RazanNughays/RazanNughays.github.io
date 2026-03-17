@@ -81,7 +81,6 @@
    ========================= */
 
 @media (min-width: 64em) {
-
   .page {
     width: 100%;
     max-width: 1350px;
@@ -90,6 +89,11 @@
     float: none;
   }
 
+  .page__inner-wrap {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -118,23 +122,6 @@
 
 
 /* =========================
-   Center whole site container
-   ========================= */
-
-.page {
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.page__inner-wrap {
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-/* =========================
    Media scaling
    ========================= */
 
@@ -150,7 +137,6 @@
    ========================= */
 
 @media (min-width: 64em) {
-
   .greedy-nav {
     display: flex;
     align-items: center;
@@ -168,7 +154,6 @@
     justify-content: center;
     gap: 1.5rem;
   }
-
 }
 
 
@@ -177,7 +162,6 @@
    ========================= */
 
 @media (max-width: 900px) {
-
   #main {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -189,39 +173,23 @@
   .page__inner-wrap {
     max-width: 100%;
   }
-
 }
+
+
 /* =========================
-   Center the entire website
+   Background page title signature only
    ========================= */
 
-#main {
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Fix sidebar layout */
-
-@media (min-width: 64em) {
-
-  .sidebar {
-    width: 260px;
-  }
-
-  .page {
-    float: right;
-    width: calc(100% - 260px);
-  }
-
-}
-
-/* Ensure content fills space */
-
-.page__inner-wrap {
-  width: 100%;
-}
-
-.page__content {
-  width: 100%;
+body[data-page-title="Background"] .page__title::before,
+body.layout--archive .page__title::before {
+  content: "";
+  display: inline-block;
+  width: 72px;
+  height: 26px;
+  background-image: url("/assets/images/signature.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+  vertical-align: middle;
 }
