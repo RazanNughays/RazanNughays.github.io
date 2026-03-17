@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Background"
 permalink: /CV/
 author_profile: false
 redirect_from:
@@ -93,11 +93,13 @@ redirect_from:
   <li><strong>IMC20 Best Poster Presentation Award</strong> (2023).</li>
 </ul>
 
-<h2>Technical Skills</h2>
+<h2>Skills</h2>
 <ul>
-  <li><strong>Programming:</strong> Python, MATLAB, LaTeX.</li>
-  <li><strong>Data analysis:</strong> Origin, MS Excel.</li>
-  <li><strong>Laboratory:</strong> Femtosecond fiber laser maintenance, optical alignment.</li>
+
+  <li><strong>Ultrafast Spectroscopy & Microscopy:</strong> 4D-USEM, pump–probe techniques.</li>
+  <li><strong>Optical Setups:</strong> Fiber laser, Ti:Sapphire system, Free-space optics, Hands-on alignment and optimization.</li>
+  <li><strong>Materials Characterization:</strong> Surface and interfacial carrier dynamics, Recombination pathways, Ion migration.</li>
+  <li><strong>Data Analysis:</strong> Quantitative analysis of time-resolved measurements using MATLAB and Python.</li>
 </ul>
 
 </div>
