@@ -1,19 +1,21 @@
 ---
 ---
 
+/*
+ * This file controls what is imported from /_sass
+ *
+ * The first two lines are required by Jekyll.
+ */
+
 @import
   "vendor/breakpoint/breakpoint",
-
   "themes",
   "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
   "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
   "include/mixins",
   "vendor/susy/susy",
-
   "layout/reset",
   "layout/base",
-
   "include/utilities",
   "layout/tables",
   "layout/buttons",
@@ -22,14 +24,11 @@
   "layout/navigation",
   "layout/footer",
   "syntax",
-
   "layout/forms",
-
   "layout/page",
   "layout/archive",
   "layout/sidebar",
   "layout/json_cv",
-
   "vendor/font-awesome/fontawesome",
   "vendor/font-awesome/solid",
   "vendor/font-awesome/brands"
@@ -71,7 +70,7 @@
 
 
 /* =========================
-   Wide pages
+   Wide pages by default
    ========================= */
 
 @media (min-width: 64em) {
@@ -82,12 +81,6 @@
     margin-right: auto;
     float: none;
   }
-
-  .page__inner-wrap {
-    max-width: 1350px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 
@@ -97,7 +90,9 @@
 
 #main .page__title,
 #main h1.page__title,
-#main .archive__subtitle {
+#main .archive__subtitle,
+#main .archive .page__title,
+#main .archive .archive__subtitle {
   text-align: left !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -110,6 +105,23 @@
 .page__inner-wrap,
 .page__content {
   text-align: left;
+}
+
+
+/* =========================
+   Center whole site container
+   ========================= */
+
+.page {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__inner-wrap {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -129,6 +141,7 @@
    ========================= */
 
 @media (min-width: 64em) {
+
   .greedy-nav {
     display: flex;
     align-items: center;
@@ -146,6 +159,7 @@
     justify-content: center;
     gap: 1.5rem;
   }
+
 }
 
 
@@ -154,6 +168,7 @@
    ========================= */
 
 @media (max-width: 900px) {
+
   #main {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -165,19 +180,58 @@
   .page__inner-wrap {
     max-width: 100%;
   }
+
 }
 
 
 /* =========================
-   🔥 SIGNATURE TITLE (GLOBAL)
+   Center the entire website
    ========================= */
 
-/* Remove graduation hat icon */
+#main {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Fix sidebar layout */
+
+@media (min-width: 64em) {
+
+  .sidebar {
+    width: 260px;
+  }
+
+  .page {
+    float: right;
+    width: calc(100% - 260px);
+  }
+
+}
+
+
+/* Ensure content fills space */
+
+.page__inner-wrap {
+  width: 100%;
+}
+
+.page__content {
+  width: 100%;
+}
+
+
+/* =========================
+   🔥 SIGNATURE IN TITLE (FINAL FIX)
+   ========================= */
+
+/* remove the hat icon */
 .page__title i {
   display: none !important;
 }
 
-/* Add signature before ALL page titles */
+/* add your signature */
 .page__title::before {
   content: "";
   display: inline-block;
