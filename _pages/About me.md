@@ -16,9 +16,15 @@ I had the privilege of collaborating with experts across different areas of the 
 
 **Scientific Approach**
 
-My work is shaped by the legacy of [Ahmed Zewail](https://www.nobelprize.org/prizes/chemistry/1999/zewail/biographical/) through my advisor, and is grounded in building and using Ultrafast SEM <p style="text-align: center; font-size: 0.9em; color: gray;">
+My work is shaped by the legacy of [Ahmed Zewail](https://www.nobelprize.org/prizes/chemistry/1999/zewail/biographical/) through my advisor, and is grounded in developing and using ultrafast scanning electron microscopy (4D-USEM) to probe charge-carrier dynamics with high spatiotemporal resolution.
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="/images/4D-USEM.png" alt="4D-USEM setup" style="max-width: 450px; width: 50%; border-radius: 10px;">
+</div>
+
+<p style="text-align: center; font-size: 0.9em; color: gray;">
   Ultrafast Scanning Electron Microscopy (4D-USEM) setup for imaging carrier dynamics in real space and time.
-</p> to probe carrier dynamcis in high spatiatemporal resoultions.
+</p>
 
 
 
