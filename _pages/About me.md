@@ -3,29 +3,8 @@ layout: single
 title: "About me"
 permalink: /
 author_profile: true
+classes: wide
 ---
-
-<style>
-  @media (min-width: 64em) {
-    .page {
-      float: right;
-      width: calc(100% - 300px);
-      max-width: none;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .page__inner-wrap {
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .page__content {
-      max-width: 100%;
-    }
-  }
-</style>
 
 My name is Razan Omar Nughays, a Postdoctoral Fellow at the [Massachusetts Institute of Technology (MIT)](https://www.mit.edu/), working with [Prof. William A. Tisdale](https://scholar.google.com/citations?user=EUtacFEAAAAJ&hl=en). My research focuses on developing and applying ultrafast experimental techniques to understand energy transport and charge-carrier dynamics in complex materials.
 
