@@ -23,7 +23,7 @@ repository               : "academicpages/RazanNughays.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "RZ.png"
+  avatar           : "RZ.jpg"
   name             : "Razan O. Nughays"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher | MIT."
